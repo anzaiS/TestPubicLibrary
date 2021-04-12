@@ -1,0 +1,6 @@
+framework module TestPubicLibrary {
+  umbrella header "TestPubicLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
