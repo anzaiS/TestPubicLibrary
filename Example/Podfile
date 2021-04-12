@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TestPubicLibrary_Example' do
+  pod 'TestPubicLibrary', :path => '../'
+
+  target 'TestPubicLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
