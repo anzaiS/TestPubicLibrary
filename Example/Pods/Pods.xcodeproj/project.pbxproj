@@ -44,6 +44,10 @@
 		F39C9FBB2625942B006E9921 /* liblibfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB42625942B006E9921 /* liblibfaad.a */; };
 		F39C9FBC2625942B006E9921 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB52625942B006E9921 /* libswscale.a */; };
 		F39C9FBD2625942B006E9921 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB62625942B006E9921 /* libx264.a */; };
+		F39C9FC226259488006E9921 /* GSHeartbeatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FBE26259487006E9921 /* GSHeartbeatKit.framework */; };
+		F39C9FC326259488006E9921 /* GSDocKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FBF26259487006E9921 /* GSDocKit.framework */; };
+		F39C9FC426259488006E9921 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FC026259487006E9921 /* GPUImage.framework */; };
+		F39C9FC526259488006E9921 /* GSCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FC126259487006E9921 /* GSCommonKit.framework */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -137,6 +141,10 @@
 		F39C9FB42625942B006E9921 /* liblibfaad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibfaad.a; sourceTree = "<group>"; };
 		F39C9FB52625942B006E9921 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
 		F39C9FB62625942B006E9921 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		F39C9FBE26259487006E9921 /* GSHeartbeatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSHeartbeatKit.framework; path = TestPubicLibrary/Classes/GSHeartbeatKit.framework; sourceTree = "<group>"; };
+		F39C9FBF26259487006E9921 /* GSDocKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSDocKit.framework; path = TestPubicLibrary/Classes/GSDocKit.framework; sourceTree = "<group>"; };
+		F39C9FC026259487006E9921 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = TestPubicLibrary/Classes/GPUImage.framework; sourceTree = "<group>"; };
+		F39C9FC126259487006E9921 /* GSCommonKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSCommonKit.framework; path = TestPubicLibrary/Classes/GSCommonKit.framework; sourceTree = "<group>"; };
 		F7969E02CDAF10AC72B2877BC85E841C /* Pods-TestPubicLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPubicLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,7 +158,11 @@
 				F39C9FBC2625942B006E9921 /* libswscale.a in Frameworks */,
 				F39C9FBB2625942B006E9921 /* liblibfaad.a in Frameworks */,
 				F39C9FBD2625942B006E9921 /* libx264.a in Frameworks */,
+				F39C9FC326259488006E9921 /* GSDocKit.framework in Frameworks */,
+				F39C9FC226259488006E9921 /* GSHeartbeatKit.framework in Frameworks */,
+				F39C9FC426259488006E9921 /* GPUImage.framework in Frameworks */,
 				F39C9FBA2625942B006E9921 /* libswresample.a in Frameworks */,
+				F39C9FC526259488006E9921 /* GSCommonKit.framework in Frameworks */,
 				39F1A9178E52DC13954B8CBF601B8402 /* Foundation.framework in Frameworks */,
 				F39C9FB82625942B006E9921 /* libavcodec.a in Frameworks */,
 				F39C9FB92625942B006E9921 /* libavformat.a in Frameworks */,
@@ -343,6 +355,10 @@
 			isa = PBXGroup;
 			children = (
 				6609126D47EC7173F847773270DC5458 /* ReplaceMe.m */,
+				F39C9FC026259487006E9921 /* GPUImage.framework */,
+				F39C9FC126259487006E9921 /* GSCommonKit.framework */,
+				F39C9FBF26259487006E9921 /* GSDocKit.framework */,
+				F39C9FBE26259487006E9921 /* GSHeartbeatKit.framework */,
 				F39C9FAF2625942B006E9921 /* libs */,
 				650532399E56E33FBD79FFBE4321344D /* Pod */,
 				8F8D4E0B20775B9C8B3AB0C5AEAEC9E7 /* Support Files */,
