@@ -20,10 +20,10 @@ TODO: Add long description of the pod here.
   s.author           = { '775007389@qq.com' => '775007389@qq.com' }
   s.source           = { :git => 'https://github.com/anzaiS/TestPubicLibrary.git', :tag => s.version.to_s }
 
-  s.platform = '9.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'TestPubicLibrary/Classes/**/*'
   s.vendored_frameworks = "TestPubicLibrary/Classes/RtSDK.framework", "TestPubicLibrary/Classes/GPUImage.framework", "TestPubicLibrary/Classes/GSCommonKit.framework", "TestPubicLibrary/Classes/GSDocKit.framework", "TestPubicLibrary/Classes/GSHeartbeatKit.framework",
   s.framework = "GLKit"
-  s.vendored_libraries  = 'TestPubicLibrary/Classes/libs/**/*.{a}'
+  s.vendored_libraries  = 'TestPubicLibrary/Classes/libs/*.{a}'
 end
