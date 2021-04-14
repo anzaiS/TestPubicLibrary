@@ -24,7 +24,6 @@
 		826CD0BDF4DB2AB26BAA0BA710F5DBCA /* TestPubicLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1EB48F8CE4F94371DA794368FA2ADB /* TestPubicLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		8E96F71ABCEB1242A94C1C6ED9CFC673 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609126D47EC7173F847773270DC5458 /* ReplaceMe.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
@@ -37,6 +36,7 @@
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F370B0DE2626877900C26BB6 /* RtSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0DD2626877800C26BB6 /* RtSDK.framework */; };
 		F39C9FB72625942B006E9921 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB02625942B006E9921 /* libavutil.a */; };
 		F39C9FB82625942B006E9921 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB12625942B006E9921 /* libavcodec.a */; };
 		F39C9FB92625942B006E9921 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB22625942B006E9921 /* libavformat.a */; };
@@ -102,7 +102,6 @@
 		60226FFC79EB6F6217AA402DD6DFEE86 /* Pods-TestPubicLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPubicLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		6170E34FB0962AED4281A5F9956B3B11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		6609126D47EC7173F847773270DC5458 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TestPubicLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		66219AB2C9B7B1FBEF04371870560BD5 /* Pods-TestPubicLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPubicLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6F08D05017E90EA30BD03F81F5CF17D2 /* TestPubicLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestPubicLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -134,6 +133,7 @@
 		D8F26691174CA9BDD7247A67359327CD /* Pods-TestPubicLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestPubicLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EA1EB48F8CE4F94371DA794368FA2ADB /* TestPubicLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestPubicLibrary-umbrella.h"; sourceTree = "<group>"; };
+		F370B0DD2626877800C26BB6 /* RtSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RtSDK.framework; path = TestPubicLibrary/Classes/RtSDK.framework; sourceTree = "<group>"; };
 		F39C9FB02625942B006E9921 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
 		F39C9FB12625942B006E9921 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
 		F39C9FB22625942B006E9921 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
@@ -161,6 +161,7 @@
 				F39C9FC326259488006E9921 /* GSDocKit.framework in Frameworks */,
 				F39C9FC226259488006E9921 /* GSHeartbeatKit.framework in Frameworks */,
 				F39C9FC426259488006E9921 /* GPUImage.framework in Frameworks */,
+				F370B0DE2626877900C26BB6 /* RtSDK.framework in Frameworks */,
 				F39C9FBA2625942B006E9921 /* libswresample.a in Frameworks */,
 				F39C9FC526259488006E9921 /* GSCommonKit.framework in Frameworks */,
 				39F1A9178E52DC13954B8CBF601B8402 /* Foundation.framework in Frameworks */,
@@ -354,7 +355,7 @@
 		E0C68B3AC2BE89EBC79EBD02BBF1E322 /* TestPubicLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				6609126D47EC7173F847773270DC5458 /* ReplaceMe.m */,
+				F370B0DD2626877800C26BB6 /* RtSDK.framework */,
 				F39C9FC026259487006E9921 /* GPUImage.framework */,
 				F39C9FC126259487006E9921 /* GSCommonKit.framework */,
 				F39C9FBF26259487006E9921 /* GSDocKit.framework */,
@@ -596,7 +597,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E96F71ABCEB1242A94C1C6ED9CFC673 /* ReplaceMe.m in Sources */,
 				C93CB74B9CF651AC67C6CD60D0AC0937 /* TestPubicLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
