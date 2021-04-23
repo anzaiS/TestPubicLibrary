@@ -21,6 +21,7 @@
 #import <GSCommonKit/GSVideoCapture.h>
 
 //日志
+#import <GSCommonKit/GSTimeIntervalLog.h>
 #import <GSCommonKit/GSDiagnosisInfo.h>
 #import <GSCommonKit/GSTrafficMonitoring.h>
 #import <GSCommonKit/GSZipArchive.h>

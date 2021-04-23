@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - TestPubicLibrary (0.1.0)
+  - TestPubicLibrary (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TestPubicLibrary: 5c728432c68760781a032b3d2509282cb1d5999c
+  TestPubicLibrary: 0a5a6f093c554d88fb7638c3bb71c12a49ebd234
 
 PODFILE CHECKSUM: df173ae1f8d9f7643244096bd6911049a8aba300
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.9.3

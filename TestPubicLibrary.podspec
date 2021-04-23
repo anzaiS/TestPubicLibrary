@@ -22,8 +22,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TestPubicLibrary/Classes/**/*'
-  s.vendored_frameworks = "TestPubicLibrary/Classes/RtSDK.framework", "TestPubicLibrary/Classes/GPUImage.framework", "TestPubicLibrary/Classes/GSCommonKit.framework", "TestPubicLibrary/Classes/GSDocKit.framework", "TestPubicLibrary/Classes/GSHeartbeatKit.framework",
-  s.framework = "GLKit"
-  s.vendored_libraries  = 'TestPubicLibrary/Classes/libs/*.{a}'
+  s.module_map = 'module.modulemap'
+  s.public_header_files = 'TestPubicLibrary/PublicHeaderFiles/*.{h}'
+  s.source_files = "TestPubicLibrary/Classes/**/*.{h,m,c,cc,cpp,mm}", 'TestPubicLibrary/PublicHeaderFiles/*.{h}'
+  s.vendored_frameworks = "TestPubicLibrary/Classes/*.framework"
+  s.vendored_libraries  = "TestPubicLibrary/Classes/libs/*.{a}"
+  s.libraries = 'resolv', 'c++', 'z'
+  
+  s.frameworks = 'GLKit', 'Foundation', 'UIKit', 'AudioToolbox', 'AVFoundation', 'MediaPlayer', 'CoreGraphics', 'UserNotifications', 'AssetsLibrary', 'Photos', 'CoreMedia', 'MobileCoreServices', 'VideoToolbox'
+  s.weak_framework = 'CoreML'
+  
+  
+  
 end

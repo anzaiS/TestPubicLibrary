@@ -8,6 +8,8 @@
 
 #import "ZAViewController.h"
 
+#import <TestPubicLibrary/GSPublicHeader.h>
+
 @interface ZAViewController ()
 
 @end
@@ -17,7 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [[GSBroadcastManager sharedBroadcastManager] broadcastRunningTime];
+    
 }
 
 - (void)didReceiveMemoryWarning

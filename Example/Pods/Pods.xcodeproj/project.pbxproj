@@ -6,175 +6,416 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1A8DE835F89624C63A168646617C956D /* TestPubicLibrary */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8803E1EBADD58A9DFA6A60CB47E791D9 /* Build configuration list for PBXAggregateTarget "TestPubicLibrary" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TestPubicLibrary;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		002BEB81AE68FD9B4847FD806587F1B4 /* Pods-TestPubicLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 235305C8F34B4E1AFC730964B89BB13F /* Pods-TestPubicLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		002BEB81AE68FD9B4847FD806587F1B4 /* Pods-TestPubicLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 053744F42A572C6D3E07356BEE231386 /* Pods-TestPubicLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C38AD05D79CDDFA73FAFA27BD9D3BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
-		32FF20436C40C4F4943296971F7C2EC5 /* Pods-TestPubicLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED713ACC58DBEF3192D83ABB5D5C1E /* Pods-TestPubicLibrary_Tests-dummy.m */; };
-		39F1A9178E52DC13954B8CBF601B8402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		32FF20436C40C4F4943296971F7C2EC5 /* Pods-TestPubicLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E3C318C19272C05D193146DFD0AD77 /* Pods-TestPubicLibrary_Tests-dummy.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5E6E5CF9235B5958D4509968F3EBDB25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		781BA28CA09C92681C1AA8E656EC5983 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		7853C46A767AE43A7950FF2DDE28AE9E /* Pods-TestPubicLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07193781C0A7CB9730A1DD57B3B8A3E2 /* Pods-TestPubicLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		826CD0BDF4DB2AB26BAA0BA710F5DBCA /* TestPubicLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1EB48F8CE4F94371DA794368FA2ADB /* TestPubicLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7853C46A767AE43A7950FF2DDE28AE9E /* Pods-TestPubicLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 008D3281E60A4BFB37CA75CCE526636E /* Pods-TestPubicLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		B4CF40247CD7A7201EB1E93C23072A0F /* Pods-TestPubicLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFDD3D5804EA37D1486F5D9DFAB8093 /* Pods-TestPubicLibrary_Example-dummy.m */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B4CF40247CD7A7201EB1E93C23072A0F /* Pods-TestPubicLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDE183B2A80D41DEE68D94987469B4 /* Pods-TestPubicLibrary_Example-dummy.m */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C93CB74B9CF651AC67C6CD60D0AC0937 /* TestPubicLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8337248ABDE3F8D795144E5EFD8451DE /* TestPubicLibrary-dummy.m */; };
-		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		EA04A1EE3C0A2163DDC3768B613DEBD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F370B0DE2626877900C26BB6 /* RtSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0DD2626877800C26BB6 /* RtSDK.framework */; };
-		F39C9FB72625942B006E9921 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB02625942B006E9921 /* libavutil.a */; };
-		F39C9FB82625942B006E9921 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB12625942B006E9921 /* libavcodec.a */; };
-		F39C9FB92625942B006E9921 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB22625942B006E9921 /* libavformat.a */; };
-		F39C9FBA2625942B006E9921 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB32625942B006E9921 /* libswresample.a */; };
-		F39C9FBB2625942B006E9921 /* liblibfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB42625942B006E9921 /* liblibfaad.a */; };
-		F39C9FBC2625942B006E9921 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB52625942B006E9921 /* libswscale.a */; };
-		F39C9FBD2625942B006E9921 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FB62625942B006E9921 /* libx264.a */; };
-		F39C9FC226259488006E9921 /* GSHeartbeatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FBE26259487006E9921 /* GSHeartbeatKit.framework */; };
-		F39C9FC326259488006E9921 /* GSDocKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FBF26259487006E9921 /* GSDocKit.framework */; };
-		F39C9FC426259488006E9921 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FC026259487006E9921 /* GPUImage.framework */; };
-		F39C9FC526259488006E9921 /* GSCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39C9FC126259487006E9921 /* GSCommonKit.framework */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		475020E141D3C85A2736AADF9CE3423B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F31697CBFC4233996EFCABF2E5AD6D2A;
-			remoteInfo = "Pods-TestPubicLibrary_Example";
-		};
-		DFBAD21C345DA786DA2AE0ADA37EDF7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		EB053F306F55D85BA797B93809B5E6D1 /* PBXContainerItemProxy */ = {
+		49BEE7017A52E2FEAB8BA8F7065F87D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1A8DE835F89624C63A168646617C956D;
 			remoteInfo = TestPubicLibrary;
 		};
+		4D13C6B2923E80E2F779480BE9C8A714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		E2829513034A2F33BA09281C0F9CD3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31697CBFC4233996EFCABF2E5AD6D2A;
+			remoteInfo = "Pods-TestPubicLibrary_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07193781C0A7CB9730A1DD57B3B8A3E2 /* Pods-TestPubicLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPubicLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		0B437BEC5213E813AA10C43FA73404B2 /* TestPubicLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPubicLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		0068C748D512B62E0CA3E1C2B79FAC37 /* GPUImageTextureInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageTextureInput.h; sourceTree = "<group>"; };
+		008D3281E60A4BFB37CA75CCE526636E /* Pods-TestPubicLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPubicLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		0340A0C1249007AF7CE05E810C1D987A /* GPUImageThresholdedNonMaximumSuppressionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageThresholdedNonMaximumSuppressionFilter.h; sourceTree = "<group>"; };
+		037A1B60AAA41FC280DF583EBA2E53C6 /* GPUImageLuminanceRangeFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLuminanceRangeFilter.h; sourceTree = "<group>"; };
+		03A0287068F627AC2ED82BE06C3A9A8F /* GPUImageCrosshairGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageCrosshairGenerator.h; sourceTree = "<group>"; };
+		046A632C8F1E13E5C69B2A56AFAA9385 /* GPUImageExclusionBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageExclusionBlendFilter.h; sourceTree = "<group>"; };
+		0493FEC3EB8E94D8DC5CBD2332AC5084 /* GPUImageToonFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageToonFilter.h; sourceTree = "<group>"; };
+		051A7FE144006D9D3687065B429279FA /* GSBroadcastLodDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastLodDelegate.h; sourceTree = "<group>"; };
+		053744F42A572C6D3E07356BEE231386 /* Pods-TestPubicLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPubicLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		05A9D5CB206611D68E15516480E35A48 /* GPUImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageView.h; sourceTree = "<group>"; };
+		06B19A43DE13EC50D60DF2654BE32AD5 /* GPUImageSolidColorGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSolidColorGenerator.h; sourceTree = "<group>"; };
+		06E099CE04D970BDF52BF93D3FE92E25 /* GPUImageHarrisCornerDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHarrisCornerDetectionFilter.h; sourceTree = "<group>"; };
+		08AB6007F59CBBF6BE019BB9C26DD9EB /* GSWebAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSWebAccess.h; sourceTree = "<group>"; };
+		08CE7B2F621C6EA85F52822A810CDA1B /* GPUImageParallelCoordinateLineTransformFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageParallelCoordinateLineTransformFilter.h; sourceTree = "<group>"; };
+		08F88791A260D0D055A7D39E78795E38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		090A0956007EE8F6B10D1FED618D1704 /* GSFileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSFileUtil.h; sourceTree = "<group>"; };
+		09D1043F7E88E53371DA4725E6DE4F9F /* GPUImageWeakPixelInclusionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageWeakPixelInclusionFilter.h; sourceTree = "<group>"; };
+		0AF886BBA30DC075351890C45FFDF6C4 /* liblibfaad.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibfaad.a; path = TestPubicLibrary/Classes/libs/liblibfaad.a; sourceTree = "<group>"; };
+		0B83B78D354ED78324D38A3FCCBBECE7 /* GSBroadcastDocumentDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastDocumentDelegate.h; sourceTree = "<group>"; };
+		0CBEE1F3507599F764276BE0601303D1 /* GPUImageSepiaFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSepiaFilter.h; sourceTree = "<group>"; };
+		0E478B9DA5C63EC6BA9CA9D39ED319FC /* GPUImageAdaptiveThresholdFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageAdaptiveThresholdFilter.h; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		1366490274F30396BDE4883153873172 /* Pods-TestPubicLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPubicLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		112CAE550FC4DEADC889895BBBADB14F /* GSCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSCommonKit.h; sourceTree = "<group>"; };
+		117B60C817CA47D1AC4EE7DEA83F692B /* GSResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSResponder.h; sourceTree = "<group>"; };
+		130AA9209193799B0A698DBA6CBF571A /* GPUImagePoissonBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImagePoissonBlendFilter.h; sourceTree = "<group>"; };
+		1685292C5AD50B6A0C167F268DC7ED1E /* GPUImageSmoothToonFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSmoothToonFilter.h; sourceTree = "<group>"; };
+		17DEF714A610CF1E496DE1371A76A572 /* GPUImageMotionDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMotionDetector.h; sourceTree = "<group>"; };
+		196E0321D55F0D9A7D5748DE9A06811A /* GSInvestigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSInvestigation.h; sourceTree = "<group>"; };
+		19BF1CA5C8DB4FD17AA428D372F247CA /* GSBaseEmotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBaseEmotion.h; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		235305C8F34B4E1AFC730964B89BB13F /* Pods-TestPubicLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPubicLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1ADBCF7E3987356BC695F278834EE898 /* GPUImageTextureOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageTextureOutput.h; sourceTree = "<group>"; };
+		1B61DBB45D15B4515FDDFABE198B1440 /* GPUImageLookupFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLookupFilter.h; sourceTree = "<group>"; };
+		1C673988726A04F454E8ECFFA16E1D6A /* GSBroadcastValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastValues.h; sourceTree = "<group>"; };
+		1D68418AB7F1AD4513DC1F83EB26AFC8 /* GSMediaAuthor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSMediaAuthor.h; sourceTree = "<group>"; };
+		21940A87FDFC89620041F10262D70795 /* GPUImageColourFASTSamplingOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageColourFASTSamplingOperation.h; sourceTree = "<group>"; };
+		230206F06964EBE1C8CBDB04DA4CD786 /* GPUImageSphereRefractionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSphereRefractionFilter.h; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		24B22FA894AE7525616AF65C03DD8BB5 /* GPUImageFilterPipeline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageFilterPipeline.h; sourceTree = "<group>"; };
+		2540F356AC5D82458FA4EF16B778DD0E /* GPUImageSharpenFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSharpenFilter.h; sourceTree = "<group>"; };
+		25600D532542AE67BFFEE8CA94B9F1AB /* Pods-TestPubicLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPubicLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2570233E895303F86F0A8A18BFF0980E /* GSLodItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSLodItem.h; sourceTree = "<group>"; };
+		25FC5EE699ABCD1E0D9E8BA13CC14A85 /* GSMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSMediator.h; sourceTree = "<group>"; };
+		272750E0E1FA6A7E1A75025CC0E431F0 /* GSBroadcastPraiseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastPraiseDelegate.h; sourceTree = "<group>"; };
+		277A99F1EF515927854C0D40A2A89A92 /* GSAudioPlayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSAudioPlayProtocol.h; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		279A89A34146820B479DEF2504834845 /* GPUImageChromaKeyBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageChromaKeyBlendFilter.h; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		31FBAB9C06C40D9BE19B98048F07976B /* Pods-TestPubicLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPubicLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		28680B95A65467EE08549B8C8949BBF7 /* GPUImageCropFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageCropFilter.h; sourceTree = "<group>"; };
+		290374FC7DC40353056B3D2FCB371180 /* GPUImageMosaicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMosaicFilter.h; sourceTree = "<group>"; };
+		29830233160029352CACDC037D70C6EC /* GPUImageRGBOpeningFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageRGBOpeningFilter.h; sourceTree = "<group>"; };
+		2C2B3D3396BAE4637D75492E4EDAB007 /* GPUImageJFAVoronoiFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageJFAVoronoiFilter.h; sourceTree = "<group>"; };
+		2DEB4523B1D5775E4A63C090DAC34318 /* Pods-TestPubicLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPubicLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
+		2DFCF7B85A5AE2E5305EB382C688582D /* GPUImageSaturationFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSaturationFilter.h; sourceTree = "<group>"; };
+		2DFD36B57E03ACF0DB642EDEAEE2C083 /* GSAudioUnitProcessRecordProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSAudioUnitProcessRecordProtocol.h; sourceTree = "<group>"; };
+		2E1A0E2E75DD76CD03A563216A2B819D /* GSBroadcastHongbaoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastHongbaoDelegate.h; sourceTree = "<group>"; };
+		2E938B119B32ED49E7C3EFA9E42BD9EE /* GPUImageContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageContext.h; sourceTree = "<group>"; };
+		2FB95D215CCBC394909E2A18726F140F /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		2FF0116B09F7151BD5B2DF368BA87669 /* GSBroadcastInvestigationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastInvestigationDelegate.h; sourceTree = "<group>"; };
+		301F9C266F7A3C4935129C49BCFD2F6C /* GPUImageVignetteFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageVignetteFilter.h; sourceTree = "<group>"; };
+		304469C264A2DFEEEEDE0EC46E1ADD51 /* GPUImageiOSBlurFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageiOSBlurFilter.h; sourceTree = "<group>"; };
+		3045D4CDE459221CE5B2CD7E45941B29 /* GPUImageDilationFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageDilationFilter.h; sourceTree = "<group>"; };
+		307FD21A0E4557284BB5AEA135C461AF /* GPUImageThreeInputFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageThreeInputFilter.h; sourceTree = "<group>"; };
+		30AFE520D3DD6530751A980632F636B6 /* GSCommonConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSCommonConst.h; sourceTree = "<group>"; };
+		30AFF8A930CD155CF21A3721CD4F35FF /* GPUImageCrosshatchFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageCrosshatchFilter.h; sourceTree = "<group>"; };
+		30C7609EE40BDD7217CE8564C07D1E34 /* GPUImageLowPassFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLowPassFilter.h; sourceTree = "<group>"; };
+		30D67D7976F8D0A6F7B4083C283F45DD /* GSDiagnosisInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSDiagnosisInfo.h; sourceTree = "<group>"; };
+		3169D02D7EE47DDE543C698E55E0DDC2 /* GPUImageUIElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageUIElement.h; sourceTree = "<group>"; };
+		3183951EEA0CF79449BFDCCC7D20B036 /* GPUImageColorPackingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageColorPackingFilter.h; sourceTree = "<group>"; };
+		32D8355C337B2509F1AA0BA86B13B3D2 /* GPUImageHistogramGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHistogramGenerator.h; sourceTree = "<group>"; };
+		32FB93E337CB9C9F2EB20591782DF5E5 /* GPUImageOpeningFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageOpeningFilter.h; sourceTree = "<group>"; };
+		33FE6074D4B5CB216C0B1AAA6D5BE138 /* libPlayerSDKLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPlayerSDKLib.a; path = TestPubicLibrary/Classes/libs/libPlayerSDKLib.a; sourceTree = "<group>"; };
+		340C4377B8FA7C05F67E9C3F3A51F80D /* GPUImageMaskFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMaskFilter.h; sourceTree = "<group>"; };
+		350FB01A21EC53BCA668DD2765F8ABC8 /* GSVideoCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSVideoCapture.h; sourceTree = "<group>"; };
+		35118BDAEDD55CD47A0DBF85117F1133 /* GPUImageHistogramFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHistogramFilter.h; sourceTree = "<group>"; };
+		35838B247BFAB993F3A3D0A3C8A8AFE7 /* GSFileUpload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSFileUpload.h; sourceTree = "<group>"; };
+		35CA4D51CEE361ACF603D0982BD75FD8 /* GPUImagePrewittEdgeDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImagePrewittEdgeDetectionFilter.h; sourceTree = "<group>"; };
+		36182E8BA8A660A4941D10C1756E0840 /* GPUImagePicture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImagePicture.h; sourceTree = "<group>"; };
+		36584F58F9A0F66ABFEB2D79FF838CC3 /* GPUImageDifferenceBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageDifferenceBlendFilter.h; sourceTree = "<group>"; };
+		3708F0B7A10853CB7CC78EAFE710712F /* GPUImageGaussianBlurFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageGaussianBlurFilter.h; sourceTree = "<group>"; };
+		372BC3168A7912E4F1E81F33A7694B2F /* Pods-TestPubicLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPubicLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A88727EB7C1A85BCF91C779AD9B6F61 /* GPUImageColorBurnBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageColorBurnBlendFilter.h; sourceTree = "<group>"; };
+		3AB0E24F22732848051EE8786F7D769D /* GSQuestion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSQuestion.h; sourceTree = "<group>"; };
+		3AEE895922DA14FD9A7A5F149C3B592A /* GPUImageRGBClosingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageRGBClosingFilter.h; sourceTree = "<group>"; };
+		3B579D3DFF4ACE5CA80BC346E737D9B4 /* GPUImageSubtractBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSubtractBlendFilter.h; sourceTree = "<group>"; };
+		3B9F9A0D8A2388F18A642D0AD773B8FE /* GPUImageToneCurveFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageToneCurveFilter.h; sourceTree = "<group>"; };
+		3BC771F6791F8BCBDBB1BC6E9F3F0304 /* TestPubicLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPubicLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		3FCF7EC673BF43BD1C4AAA84B2BACF26 /* TestPubicLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestPubicLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42A4AA69DBCEE243DE13F57EF3EB3959 /* TestPubicLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestPubicLibrary.modulemap; sourceTree = "<group>"; };
-		436E504F8CD6725D06199EBCC36B3E33 /* Pods_TestPubicLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPubicLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F67346B0DA2B0AE90F85C837CB240F8 /* GPUImageLuminosity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLuminosity.h; sourceTree = "<group>"; };
+		3F8763713B314EAE5F40EF31615D3BB7 /* GSPraiseUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSPraiseUserInfo.h; sourceTree = "<group>"; };
+		3FE6828AD2D52FAF63EE9496EF64200A /* GPUImageSolarizeFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSolarizeFilter.h; sourceTree = "<group>"; };
+		3FF588A1492D491EE01B3D137F4B29F0 /* GPUImageErosionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageErosionFilter.h; sourceTree = "<group>"; };
+		3FF8BB427187E0EA604EA8BBAA20981A /* GPUImageContrastFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageContrastFilter.h; sourceTree = "<group>"; };
+		4089EE3BFFBC9CFF7164C283A939FAAC /* GPUImageUnsharpMaskFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageUnsharpMaskFilter.h; sourceTree = "<group>"; };
+		40DA2D200EDB2B2DB375FBB757BE604B /* GPUImageColorConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageColorConversion.h; sourceTree = "<group>"; };
+		41F05CFC71E19422BCC8EB389A6718DF /* GSExtraInitParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSExtraInitParam.h; sourceTree = "<group>"; };
+		42278C2D0F83B191E5FB39D5EF00AA0E /* TestPubicLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestPubicLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4320A859A659EE7742617EC673F4126E /* GPUImageLuminosityBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLuminosityBlendFilter.h; sourceTree = "<group>"; };
+		4332148F2F24804DE4D6BE9F1A24EFB4 /* GSUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSUserInfo.h; sourceTree = "<group>"; };
+		436E504F8CD6725D06199EBCC36B3E33 /* Pods_TestPubicLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestPubicLibrary_Tests.framework; path = "Pods-TestPubicLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4383297F50767A191D2927C52984A04C /* GPUImageLaplacianFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLaplacianFilter.h; sourceTree = "<group>"; };
+		43D222647FFDBC6528B73533C007A749 /* GPUImageScreenBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageScreenBlendFilter.h; sourceTree = "<group>"; };
+		44A337B569D5D0632394D90EA5CFDAF5 /* GPUImageHoughTransformLineDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHoughTransformLineDetector.h; sourceTree = "<group>"; };
+		44B73868D03D37C2F174A3F5EFA751AB /* GPUImageGrayscaleFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageGrayscaleFilter.h; sourceTree = "<group>"; };
+		44FE1B7466D86E2738C9084CDD1D5151 /* GSXMLReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSXMLReader.h; sourceTree = "<group>"; };
+		454B2593B0B527D706E98F7BD76200D1 /* GPUImageEmbossFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageEmbossFilter.h; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		45A70EDCF2411CCA26A4474E18CBD6B8 /* GPUImageSaturationBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSaturationBlendFilter.h; sourceTree = "<group>"; };
+		45ECA3B46D8B2502241783FED43E3093 /* GSDocKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSDocKit.framework; path = TestPubicLibrary/Classes/GSDocKit.framework; sourceTree = "<group>"; };
+		46DA945D16EE8F393120AC11DB5D0F80 /* Pods-TestPubicLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPubicLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		48C57822B1929D6531713C0ED0E1D86B /* GenseeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GenseeConfig.h; sourceTree = "<group>"; };
+		4A1C8C3AAC7E1442A9E8962FD82D6CBC /* GPUImageMonochromeFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMonochromeFilter.h; sourceTree = "<group>"; };
+		4A8134E503106BA1AE8A2972AF8B6A5B /* GSSDLGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSSDLGLView.h; sourceTree = "<group>"; };
+		4B16E0FC26BE62859B6510A319D72D17 /* GPUImageColourFASTFeatureDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageColourFASTFeatureDetector.h; sourceTree = "<group>"; };
+		4B9ECB8B45C1EA5A70C666B8CAD7822D /* GPUImageWhiteBalanceFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageWhiteBalanceFilter.h; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		51686A27C1153641248E09BE7D3ECF24 /* Pods-TestPubicLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPubicLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CD4DB61320FF8D4FE12AB52073EEE98 /* Pods-TestPubicLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPubicLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		5FFDD3D5804EA37D1486F5D9DFAB8093 /* Pods-TestPubicLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPubicLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		60226FFC79EB6F6217AA402DD6DFEE86 /* Pods-TestPubicLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPubicLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
-		6170E34FB0962AED4281A5F9956B3B11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4D440BA9CD6433AAA3461016C1C52637 /* GSNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSNotificationManager.h; sourceTree = "<group>"; };
+		4F2166EAFA874767FF6DA2E6590221CE /* GSGrabInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSGrabInfo.h; sourceTree = "<group>"; };
+		4F587CDC32B44B796F5FB64BF3E7DE4F /* GPUImageGaussianBlurPositionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageGaussianBlurPositionFilter.h; sourceTree = "<group>"; };
+		523099BE6FB4CC594B83BCA2779E1E6F /* GPUImageXYDerivativeFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageXYDerivativeFilter.h; sourceTree = "<group>"; };
+		52CB070AF56860371CA1D02513CC4656 /* GPUImageThresholdEdgeDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageThresholdEdgeDetectionFilter.h; sourceTree = "<group>"; };
+		52DE428CA33F72AD7809079DC5CCB53C /* GPUImageFourInputFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageFourInputFilter.h; sourceTree = "<group>"; };
+		535B8E8E8E3E22D7EADB4A3FB639AF7B /* GPUImageThresholdSketchFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageThresholdSketchFilter.h; sourceTree = "<group>"; };
+		53712A3E07131C8885D9BD0B7F32E9D7 /* GPUImageZoomBlurFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageZoomBlurFilter.h; sourceTree = "<group>"; };
+		53D6B98C3919CA8B99A23CB72C91FDB7 /* GPUImageSobelEdgeDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSobelEdgeDetectionFilter.h; sourceTree = "<group>"; };
+		555C3C3761EDA309626D46F7C36D71FF /* GPUImageLanczosResamplingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLanczosResamplingFilter.h; sourceTree = "<group>"; };
+		5688DF17FB9086B978C3B8CD6B167A0E /* GSReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSReachability.h; sourceTree = "<group>"; };
+		56B8E3FB7C70DECDEEC17A196CD8D047 /* GPUImageLuminanceThresholdFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLuminanceThresholdFilter.h; sourceTree = "<group>"; };
+		5743A1DD2D77DC13328F9D408E6EC8C2 /* GSCommonKitMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSCommonKitMacro.h; sourceTree = "<group>"; };
+		5782CF228CABB19A662E9531D52A7BBE /* UIView+GSRectExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GSRectExtension.h"; sourceTree = "<group>"; };
+		578C0858A402D02FDFAF893F452AF692 /* GPUImageLinearBurnBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLinearBurnBlendFilter.h; sourceTree = "<group>"; };
+		5B680C4765563EB78E4E302C5E102099 /* Pods-TestPubicLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPubicLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E228BDA7284BE6DF2E1632BE2B1277B /* GPUImageTwoPassFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageTwoPassFilter.h; sourceTree = "<group>"; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5F075A4F7D809BFECD55E2ACB20D8915 /* GSLiveAudioConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSLiveAudioConfiguration.h; sourceTree = "<group>"; };
+		601B125C1CC1CC560B06C09FDDD7349E /* GLProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		6078AB33E2C0D392FB7CEE551DC96F07 /* GPUImageRGBDilationFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageRGBDilationFilter.h; sourceTree = "<group>"; };
+		60E3C318C19272C05D193146DFD0AD77 /* Pods-TestPubicLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPubicLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		618295EA9D6921730123BD46C9085A63 /* GSUserManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSUserManager.h; sourceTree = "<group>"; };
+		61C3CA666C24B7FAA127DB92576748FF /* Pods-TestPubicLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPubicLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		630B1E08066D9DE51FC1F045B1C38CE9 /* GSHongbaoImplDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSHongbaoImplDelegate.h; sourceTree = "<group>"; };
+		64FD6AFFF3372D9A659DF7D77B6ECC10 /* GPUImageKuwaharaRadius3Filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageKuwaharaRadius3Filter.h; sourceTree = "<group>"; };
+		655EF25D42081F8E8D9B9D2A7FCF7B60 /* GPUImagePixellateFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImagePixellateFilter.h; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		66219AB2C9B7B1FBEF04371870560BD5 /* Pods-TestPubicLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPubicLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		656BCB9D7ED74F9CB51039D3C5F280EA /* GPUImageColorDodgeBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageColorDodgeBlendFilter.h; sourceTree = "<group>"; };
+		67575CC1BE3BF2B38E4C0F0F7AE8C7FE /* GPUImageStretchDistortionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageStretchDistortionFilter.h; sourceTree = "<group>"; };
+		69A00C070C184E7C8996AD4B65058B70 /* GSConnectInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSConnectInfo.h; sourceTree = "<group>"; };
+		6A75B4AAF426B874159DDF4CF15004E3 /* GSGLRenderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSGLRenderProtocol.h; sourceTree = "<group>"; };
+		6A916F7432775D047BA5DB741898312D /* GSFileWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSFileWriter.h; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6F08D05017E90EA30BD03F81F5CF17D2 /* TestPubicLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestPubicLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		71ED713ACC58DBEF3192D83ABB5D5C1E /* Pods-TestPubicLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPubicLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
-		776CA5014A136D7D6525B4F6553C572B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7CC01176B40E9258BC27CB230D949BC6 /* Pods-TestPubicLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPubicLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6C7ED8FB5801CDFBBBB96F133B07E2D8 /* GPUImageExposureFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageExposureFilter.h; sourceTree = "<group>"; };
+		6DE07755A6CCC22DAABF55EA176CA14A /* GSLFVideoFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSLFVideoFrame.h; sourceTree = "<group>"; };
+		6DE50C50B1FF28FFAE17FBFC155A0D60 /* GPUImageCGAColorspaceFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageCGAColorspaceFilter.h; sourceTree = "<group>"; };
+		6F24B9AFBC6ED99B21B1EEEDD63CF069 /* GPUImageDirectionalNonMaximumSuppressionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageDirectionalNonMaximumSuppressionFilter.h; sourceTree = "<group>"; };
+		6FD5B31CBDC6C800831C49F9F6D7A9F5 /* GPUImageFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageFramework.h; sourceTree = "<group>"; };
+		712C471855A18DD8B6CF5B59AB100C19 /* GSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSZipArchive.h; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		732DB47663F9F5832B9FB336EDE83DF7 /* GSVideoFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSVideoFrame.h; sourceTree = "<group>"; };
+		742772B7BCB065267A166A5B31810B1E /* GPUImageLightenBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLightenBlendFilter.h; sourceTree = "<group>"; };
+		7584524A4457AA2E2C4AA9C8543EC722 /* libavutil.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavutil.a; path = TestPubicLibrary/Classes/libs/libavutil.a; sourceTree = "<group>"; };
+		75B6D999759D5793452F79360A765346 /* GPUImage3x3TextureSamplingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImage3x3TextureSamplingFilter.h; sourceTree = "<group>"; };
+		775629D19B5F760170DCA46E8CF51989 /* GSHeartbeatDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSHeartbeatDelegate.h; sourceTree = "<group>"; };
+		7762FF36DFCA9D8C2783A16B80D083C6 /* GPUImagePosterizeFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImagePosterizeFilter.h; sourceTree = "<group>"; };
+		7813EF96015130A5E65C79DB37B281AC /* GPUImagePinchDistortionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImagePinchDistortionFilter.h; sourceTree = "<group>"; };
+		79832229E522172B1365500670EA8EDE /* GPUImageShiTomasiFeatureDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageShiTomasiFeatureDetectionFilter.h; sourceTree = "<group>"; };
+		7A3D8BE954D872BD83B5EBE33261A2C9 /* GPUImageMovieComposition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMovieComposition.h; sourceTree = "<group>"; };
+		7B5F4FDB08E3CA4DCED114912A0E1774 /* GSChatMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSChatMessage.h; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C07B19A5218AA78A7ACB93AB792BA0D /* GPUImageLineGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLineGenerator.h; sourceTree = "<group>"; };
+		7D4D9DE1508B5E0532D2366F7A3ACC5F /* GPUImagePolkaDotFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImagePolkaDotFilter.h; sourceTree = "<group>"; };
+		7D5CE4411A39C80DDA0B73CF52BFB66C /* GPUImageMovie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMovie.h; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		8337248ABDE3F8D795144E5EFD8451DE /* TestPubicLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestPubicLibrary-dummy.m"; sourceTree = "<group>"; };
-		862BCE514899D686ADACF9253B2EC1CD /* Pods-TestPubicLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPubicLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E1C1E0A8937C531FDBAD816CACAC58E /* GPUImageRGBFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageRGBFilter.h; sourceTree = "<group>"; };
+		7ECE6F41E5C53F2B2233D32054E88D84 /* GPUImageOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageOutput.h; sourceTree = "<group>"; };
+		7EEFBC242451E58085223ADC77CA5CCE /* GPUImageTwoInputCrossTextureSamplingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageTwoInputCrossTextureSamplingFilter.h; sourceTree = "<group>"; };
+		7F96C403A96DE1293BBACEED7D11A7E8 /* GPUImageAmatorkaFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageAmatorkaFilter.h; sourceTree = "<group>"; };
+		8127106F27BFC2DFB0C6A44459C6BA9B /* GPUImageSwirlFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSwirlFilter.h; sourceTree = "<group>"; };
+		82760D7EB23E9BE53A07A3DED34C6594 /* GSBroadcastAudioDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastAudioDelegate.h; sourceTree = "<group>"; };
+		82CE8FA3E94F6D7D40FD1A26B47E66AD /* GSLayoutInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSLayoutInfo.h; sourceTree = "<group>"; };
+		841247C55C00BEC4C1ADFC9E18D4E6B3 /* GSHongbaoImplParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSHongbaoImplParams.h; sourceTree = "<group>"; };
+		844D9CFD7839C9D30061F945827FA5B4 /* GPUImageBilateralFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageBilateralFilter.h; sourceTree = "<group>"; };
+		848BB82320D4D5FB49DE8CB76AB6554B /* Pods-TestPubicLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPubicLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8595D458AAC69944EA80DE66FD8880B7 /* GPUImageBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageBuffer.h; sourceTree = "<group>"; };
+		864284459AF0655F78AEF4A00540B9EE /* GSTipInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSTipInfo.h; sourceTree = "<group>"; };
+		86DE899C3990936AF42A37843ED6AFBA /* GSDTJoinParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSDTJoinParams.h; sourceTree = "<group>"; };
+		878ED934AC25531106B229133FA48437 /* GPUImageBoxBlurFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageBoxBlurFilter.h; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8975A4E4D9E259FC3B1B13C04291CEB1 /* GPUImageOpacityFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageOpacityFilter.h; sourceTree = "<group>"; };
+		89F2658CF435D2316B9715B37355C84F /* GSH264Encoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSH264Encoder.h; sourceTree = "<group>"; };
+		89F4295A3B2702F568A460567FDD5CF0 /* GPUImageMovieWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMovieWriter.h; sourceTree = "<group>"; };
+		8A86484014E430447DD2160604F4B284 /* GSAudioUnitProcess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSAudioUnitProcess.h; sourceTree = "<group>"; };
+		8A9DDF6B4BCA8E335531341F0F3ECDE4 /* GPUImageHazeFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHazeFilter.h; sourceTree = "<group>"; };
+		8AD3BAB4B6AA09D87F1E922E80A66E96 /* NSString+GSURLEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GSURLEncode.h"; sourceTree = "<group>"; };
+		8AD7530C48C0312002F204EC546056E0 /* GPUImageLevelsFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLevelsFilter.h; sourceTree = "<group>"; };
+		8BD54386DDE76013E333BDB6DB624D97 /* libavcodec.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavcodec.a; path = TestPubicLibrary/Classes/libs/libavcodec.a; sourceTree = "<group>"; };
+		8C108DC0826AD0CFA7568B54F3EECC2F /* GPUImageGlassSphereFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageGlassSphereFilter.h; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DC1A7D6E4554CA9E45D23E4A49FC54F /* GPUImageKuwaharaFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageKuwaharaFilter.h; sourceTree = "<group>"; };
+		8DECFC8321CFBEE8BA45711E105A1727 /* GSBroadcastDesktopShareDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastDesktopShareDelegate.h; sourceTree = "<group>"; };
+		8E0E2D0C231F78E0BEDA3764F64E1EC3 /* GPUImage3x3ConvolutionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImage3x3ConvolutionFilter.h; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		8F7ADF3421495BA61F9447231BCC6800 /* Pods_TestPubicLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPubicLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9285F3B0BD9F2B8F082C929D5A7113E8 /* TestPubicLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPubicLibrary.release.xcconfig; sourceTree = "<group>"; };
-		940A740005D1CB5426A6D93FC2E741FC /* Pods-TestPubicLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPubicLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EF6BDCCBB0B7789FB7EA8797DDFD150 /* GPUImageFramebuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageFramebuffer.h; sourceTree = "<group>"; };
+		8F7ADF3421495BA61F9447231BCC6800 /* Pods_TestPubicLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestPubicLibrary_Example.framework; path = "Pods-TestPubicLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9049B6F07F0EF2E125326F70C5ED85C3 /* GSThreadSafeArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSThreadSafeArray.h; sourceTree = "<group>"; };
+		90D8B60E61EE3903F658F88EDDE0D018 /* GSGLRender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSGLRender.h; sourceTree = "<group>"; };
+		9131E69F6B1DA7FCB9AA15D26C61FD4F /* Pods-TestPubicLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPubicLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9137160DEA8380F6DBB0168DDA1FA52C /* Pods-TestPubicLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPubicLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		94B4EF5216F698302E00BD079BD4EB79 /* TestPubicLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestPubicLibrary-Info.plist"; sourceTree = "<group>"; };
+		947E16998F968890C78DF265C5FFECC0 /* GSRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSRequest.h; sourceTree = "<group>"; };
+		955D5FBA9E6E2FF88E955A12CFDA2031 /* libx264.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libx264.a; path = TestPubicLibrary/Classes/libs/libx264.a; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		965CA4356985FB964C02EDA21F346038 /* GPUImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImage.h; sourceTree = "<group>"; };
+		971B7C4BE682F3250BBBA0CEE497505C /* GSDTSubClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSDTSubClass.h; sourceTree = "<group>"; };
+		975E447A9A526B8F03D0BF1D43E6D675 /* GPUImageFramebufferCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageFramebufferCache.h; sourceTree = "<group>"; };
+		97D4261A0F38B7FDD8F68ED3672F4AEE /* GSTextAttributeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSTextAttributeLabel.h; sourceTree = "<group>"; };
+		993E7A019D5D9F7F0FDF6085630671C9 /* RtSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RtSDK.framework; path = TestPubicLibrary/Classes/RtSDK.framework; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9BB95B772EB9983E0C6C69E7CE812095 /* TestPubicLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestPubicLibrary-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2553D2351E95F44D607AC687BDC883B /* Pods-TestPubicLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestPubicLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9AADA860E051A86ECB937373651CBAB5 /* GSBroadcastFtDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastFtDelegate.h; sourceTree = "<group>"; };
+		9B1913EC87FE6570F8E505EF87242C18 /* GPUImageCannyEdgeDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageCannyEdgeDetectionFilter.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E86E47B7A40411299C3D9BE4D5AB200 /* GPUImageMotionBlurFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMotionBlurFilter.h; sourceTree = "<group>"; };
+		A03F89153C1A57A7CC717FBBA309E0B1 /* GPUImageLocalBinaryPatternFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageLocalBinaryPatternFilter.h; sourceTree = "<group>"; };
+		A156F0D6772A492057592BC47397A12C /* libswscale.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libswscale.a; path = TestPubicLibrary/Classes/libs/libswscale.a; sourceTree = "<group>"; };
+		A1F347F4F4CC7657450686F06CEB8F16 /* GPUImageSingleComponentGaussianBlurFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSingleComponentGaussianBlurFilter.h; sourceTree = "<group>"; };
+		A25C658C61C57551E909598646E4DFEC /* GPUImageFASTCornerDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageFASTCornerDetectionFilter.h; sourceTree = "<group>"; };
+		A4F156716CF77867279D0CDBBE554079 /* GSSMSCodeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSSMSCodeInfo.h; sourceTree = "<group>"; };
+		A53962D1499C01DFCC6A0C86D1C5EE05 /* GPUImageAverageLuminanceThresholdFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageAverageLuminanceThresholdFilter.h; sourceTree = "<group>"; };
+		A58AAB9906790D4AD5AED52D303E8422 /* GSDTConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSDTConst.h; sourceTree = "<group>"; };
+		A58BDADF86BB3143B21A573C4CB61522 /* GPUImageChromaKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageChromaKeyFilter.h; sourceTree = "<group>"; };
+		A5D0817E9A8871045641B7BE9A0972CF /* GPUImageTwoPassTextureSamplingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageTwoPassTextureSamplingFilter.h; sourceTree = "<group>"; };
+		A5FD5B2F97FA99BAE908AC6A25833D09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A7B9F7AE23A9DA274EFF5504C34218AA /* GPUImageColorInvertFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageColorInvertFilter.h; sourceTree = "<group>"; };
+		A84200DD6DA0318C1A4D9003120835FF /* GPUImageHistogramEqualizationFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHistogramEqualizationFilter.h; sourceTree = "<group>"; };
+		A87AA872AE563B33823A4D94AE847632 /* GSTimeIntervalLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSTimeIntervalLog.h; sourceTree = "<group>"; };
+		A8AA12270D1E85110E583FE9124F295F /* GPUImageMultiplyBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMultiplyBlendFilter.h; sourceTree = "<group>"; };
+		A945753911BDA271CB76C92ECAABA442 /* GPUImageRawDataOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageRawDataOutput.h; sourceTree = "<group>"; };
+		A9F088AD67DD1321E0F4BD63507BC878 /* GPUImageTransformFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageTransformFilter.h; sourceTree = "<group>"; };
+		AA846D2E50322CCE6A6BD1707DAE472A /* libavformat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavformat.a; path = TestPubicLibrary/Classes/libs/libavformat.a; sourceTree = "<group>"; };
+		AD594D5793971C30D756E372C9ABA5B7 /* GPUImageGammaFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageGammaFilter.h; sourceTree = "<group>"; };
+		ADC7FECF6506A675133B200C9410C85D /* GSWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSWeakProxy.h; sourceTree = "<group>"; };
+		AE5944DB26521CF53CD5C8A7351E8ECD /* GSTrafficMonitoring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSTrafficMonitoring.h; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AF41DB69AF1C731E7A3AA9779C17BEEB /* GPUImageColorBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageColorBlendFilter.h; sourceTree = "<group>"; };
+		B02472518A47C814BAD000C8BDB2A673 /* GPUImageHueFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHueFilter.h; sourceTree = "<group>"; };
+		B12E26EA219ECD6281CB7F4A57B4EDBF /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = TestPubicLibrary/Classes/GPUImage.framework; sourceTree = "<group>"; };
+		B288E542411B3BA050CD1EA3AA5203F3 /* GSAudioFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSAudioFactory.h; sourceTree = "<group>"; };
+		B2E54B152676EBB6C3438FC1F599414F /* GSLiveVideoConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSLiveVideoConfiguration.h; sourceTree = "<group>"; };
+		B3106299DF2B3C657C9B9AF9F567966C /* GPUImageHighlightShadowFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHighlightShadowFilter.h; sourceTree = "<group>"; };
+		B5283E8843E4BC287340E8A5006E92CD /* GPUImagePolarPixellateFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImagePolarPixellateFilter.h; sourceTree = "<group>"; };
+		B5A6739BA50EB2B33B0670BA416E6407 /* GSDocKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSDocKit.h; sourceTree = "<group>"; };
+		B6A544F4DEB9EA77A227F9268015FADC /* GPUImageDissolveBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageDissolveBlendFilter.h; sourceTree = "<group>"; };
+		B6E9CF610EA005DFD9119258F4B79D37 /* GPUImageNormalBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageNormalBlendFilter.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		B89571C964B49805E14F8EA070E61AF9 /* Pods-TestPubicLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPubicLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B787D7CB686CF096B3567B82932C2968 /* TestPubicLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPubicLibrary.release.xcconfig; sourceTree = "<group>"; };
+		B7B50F11C38DA437ECF5D35EB42CABA6 /* GSRtConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSRtConst.h; sourceTree = "<group>"; };
+		B7DE7A587B06E6637AF923CB70C60A82 /* RtSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RtSDK.h; sourceTree = "<group>"; };
+		B922546F327C0C4DAD8576A1C77602E6 /* GPUImageHighPassFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHighPassFilter.h; sourceTree = "<group>"; };
+		BB4334AB0FD4268C1DCD1BB3BE47E3EA /* GPUImageTwoInputFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageTwoInputFilter.h; sourceTree = "<group>"; };
+		BBEF66602B6C00F7FAE442637E67FFDB /* GPUImageColorMatrixFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageColorMatrixFilter.h; sourceTree = "<group>"; };
+		BCEDE183B2A80D41DEE68D94987469B4 /* Pods-TestPubicLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPubicLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		BD146A0E70EBF668ACBEEBAE8662327B /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		BE3ECAD85A455D9C68A4C7A2AB54DA62 /* GSAnnoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSAnnoView.h; sourceTree = "<group>"; };
+		BE78701CF3B2535B31CFCB3BCBD49CD0 /* GPUImageHalftoneFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHalftoneFilter.h; sourceTree = "<group>"; };
+		BE7E3CC7EDA13CD60D12D2A9BBFAC70C /* GPUImageVoronoiConsumerFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageVoronoiConsumerFilter.h; sourceTree = "<group>"; };
+		C30E1D0F5D91F5D666201D83D48F6AF4 /* GPUImageFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageFilter.h; sourceTree = "<group>"; };
+		C399127E38F9C203D8BD61E802327804 /* GPUImageVideoCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageVideoCamera.h; sourceTree = "<group>"; };
+		C3D12A3956FA93A8A2B77B823B7CC833 /* GPUImageMedianFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMedianFilter.h; sourceTree = "<group>"; };
+		C554A58E0682C7CCD25770DF6440B770 /* GSGLRenderColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSGLRenderColors.h; sourceTree = "<group>"; };
+		C658D4DF8CA2D007531D399A7322B86B /* GPUImageNonMaximumSuppressionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageNonMaximumSuppressionFilter.h; sourceTree = "<group>"; };
+		C6DBE242FB9DCCF693F43AAECE948FF7 /* GPUImageAlphaBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageAlphaBlendFilter.h; sourceTree = "<group>"; };
+		C74FAA3292E48143E5280EB128CA5AFC /* GSThreadSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSThreadSafeDictionary.h; sourceTree = "<group>"; };
+		C79558458ACE25E0122283C7E3AE49E4 /* GSHeartbeatKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSHeartbeatKit.h; sourceTree = "<group>"; };
+		C7B437B2E5DC7FFF7801F17DC15181A3 /* GPUImageBulgeDistortionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageBulgeDistortionFilter.h; sourceTree = "<group>"; };
+		C8BD2A561A26A14B52BCA3E2104EB469 /* GPUImagePixellatePositionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImagePixellatePositionFilter.h; sourceTree = "<group>"; };
+		C917F89518DC6286A0349E65F0D85C09 /* GSBroadcastProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastProtocol.h; sourceTree = "<group>"; };
+		CB38332331BD1F783B872FCF6A2B5641 /* GSPCMWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSPCMWriter.h; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CF6EDFA3781F2F5EADD5559EB906B15A /* Pods-TestPubicLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPubicLibrary_Example-Info.plist"; sourceTree = "<group>"; };
+		CC088466DE9B8D07B4C47CECFDEA77FB /* GPUImageSoftLightBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSoftLightBlendFilter.h; sourceTree = "<group>"; };
+		CC1450581247BD4CC6F0ED357A6B1972 /* GPUImageColorLocalBinaryPatternFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageColorLocalBinaryPatternFilter.h; sourceTree = "<group>"; };
+		CCF014BA5E67C3A27EAC788B1B0441DE /* GSAudioUnitPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSAudioUnitPlayer.h; sourceTree = "<group>"; };
+		CCF4B29912A638570FB5D5F8F8D9B007 /* GSMovieGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSMovieGLView.h; sourceTree = "<group>"; };
+		CD69B9C4E99D611195C387BA28DEA84C /* Pods-TestPubicLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPubicLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD9BDFA605AB2C3A9587E462A7BC2434 /* GPUImagePerlinNoiseFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImagePerlinNoiseFilter.h; sourceTree = "<group>"; };
+		CEC5D75965F991549F928D085594BC6F /* GSWatermarkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSWatermarkView.h; sourceTree = "<group>"; };
+		CEDF7DEE3AA3CFACD3C7618C766310F5 /* GPUImageOverlayBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageOverlayBlendFilter.h; sourceTree = "<group>"; };
+		CFC33E49B8C958DD50B4BF9661598A2C /* GPUImageHueBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHueBlendFilter.h; sourceTree = "<group>"; };
+		CFD0F7A553E6DC5FEC1922DE50C0426D /* GPUImageDivideBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageDivideBlendFilter.h; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D0C651292C3BF19BD4789215EDD1D46D /* GPUImageSourceOverBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSourceOverBlendFilter.h; sourceTree = "<group>"; };
+		D1E7D6D7C31419343A03632974621586 /* GPUImageAddBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageAddBlendFilter.h; sourceTree = "<group>"; };
+		D23E3ECB6AA502B9EB903B21AD48024E /* GSCommonKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSCommonKit.framework; path = TestPubicLibrary/Classes/GSCommonKit.framework; sourceTree = "<group>"; };
+		D2D236AE39542DB003C943CCA5242843 /* GSDocAnnoProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSDocAnnoProtocol.h; sourceTree = "<group>"; };
+		D2D8D941A9AE49523275300284F2F8D8 /* GPUImageFalseColorFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageFalseColorFilter.h; sourceTree = "<group>"; };
+		D341A80C8C0A3274A95A4D480A993F84 /* GSBroadcastChatDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastChatDelegate.h; sourceTree = "<group>"; };
+		D3EFE766D64E4D7AC40BC0E5E0B79150 /* GSFileDownload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSFileDownload.h; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		D8F26691174CA9BDD7247A67359327CD /* Pods-TestPubicLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestPubicLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EA1EB48F8CE4F94371DA794368FA2ADB /* TestPubicLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestPubicLibrary-umbrella.h"; sourceTree = "<group>"; };
-		F370B0DD2626877800C26BB6 /* RtSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RtSDK.framework; path = TestPubicLibrary/Classes/RtSDK.framework; sourceTree = "<group>"; };
-		F39C9FB02625942B006E9921 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
-		F39C9FB12625942B006E9921 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
-		F39C9FB22625942B006E9921 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
-		F39C9FB32625942B006E9921 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
-		F39C9FB42625942B006E9921 /* liblibfaad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibfaad.a; sourceTree = "<group>"; };
-		F39C9FB52625942B006E9921 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
-		F39C9FB62625942B006E9921 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
-		F39C9FBE26259487006E9921 /* GSHeartbeatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSHeartbeatKit.framework; path = TestPubicLibrary/Classes/GSHeartbeatKit.framework; sourceTree = "<group>"; };
-		F39C9FBF26259487006E9921 /* GSDocKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSDocKit.framework; path = TestPubicLibrary/Classes/GSDocKit.framework; sourceTree = "<group>"; };
-		F39C9FC026259487006E9921 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = TestPubicLibrary/Classes/GPUImage.framework; sourceTree = "<group>"; };
-		F39C9FC126259487006E9921 /* GSCommonKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSCommonKit.framework; path = TestPubicLibrary/Classes/GSCommonKit.framework; sourceTree = "<group>"; };
-		F7969E02CDAF10AC72B2877BC85E841C /* Pods-TestPubicLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPubicLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8FB7C78B21EB95E4C20B4DD9D0D2F76 /* Pods-TestPubicLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestPubicLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DAB9F8145D4D4E4B30C36D08FF2ABD06 /* GPUImageDirectionalSobelEdgeDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageDirectionalSobelEdgeDetectionFilter.h; sourceTree = "<group>"; };
+		DAD551C26AA5D21B7D8090F801776987 /* GPUImageTiltShiftFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageTiltShiftFilter.h; sourceTree = "<group>"; };
+		DC2568DB3728B4C617915223990D7B0A /* GSDTGroupInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSDTGroupInfo.h; sourceTree = "<group>"; };
+		DD2970FD76203D05E30417DCEF6F7635 /* GPUImageHSBFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHSBFilter.h; sourceTree = "<group>"; };
+		DDB3AE2E5355E1DEAFD90B1E4638A008 /* libswresample.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libswresample.a; path = TestPubicLibrary/Classes/libs/libswresample.a; sourceTree = "<group>"; };
+		DDFE65F12AD751358A46EB2F0918C897 /* GSBroadcastManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastManager.h; sourceTree = "<group>"; };
+		DF74FF89FF123B9497F61B8973F6DFA8 /* GPUImageRGBErosionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageRGBErosionFilter.h; sourceTree = "<group>"; };
+		E23B466ED23F95254C99ECA78585C313 /* GSHeartbeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSHeartbeat.h; sourceTree = "<group>"; };
+		E398087C4F2F5EFE56D61DB955AF0C78 /* GSGLBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSGLBuffer.h; sourceTree = "<group>"; };
+		E4C801032797B90C31EA510C2002F360 /* GPUImageDarkenBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageDarkenBlendFilter.h; sourceTree = "<group>"; };
+		E4F8891DA6A252E57E305EAB0DA7286D /* Pods-TestPubicLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPubicLibrary_Example-Info.plist"; sourceTree = "<group>"; };
+		E6F85A7148C46C9C9292FEDEDC8A79DB /* GPUImageNobleCornerDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageNobleCornerDetectionFilter.h; sourceTree = "<group>"; };
+		E74CB2F0F34DF48E008378F289A471E2 /* GPUImageSoftEleganceFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSoftEleganceFilter.h; sourceTree = "<group>"; };
+		E7D184C8AEFCE82C7651D0D7A739CBBE /* GSBroadcastQaDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastQaDelegate.h; sourceTree = "<group>"; };
+		E86DFAF060F9C7BC1F214F860B09C9D7 /* GSBroadcastRoomDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastRoomDelegate.h; sourceTree = "<group>"; };
+		E8F205FB9D583357514BF2EE545912DF /* GSChatContentParse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSChatContentParse.h; sourceTree = "<group>"; };
+		EA432949EE889653325BCD29EE027C05 /* GPUImageRawDataInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageRawDataInput.h; sourceTree = "<group>"; };
+		EA8FCEB0F0A5B7FB16FDB0E7569E05D8 /* GPUImageFilterGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageFilterGroup.h; sourceTree = "<group>"; };
+		EB796684B62C19E23C149E0D46A2D84D /* GSHeartbeatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSHeartbeatKit.framework; path = TestPubicLibrary/Classes/GSHeartbeatKit.framework; sourceTree = "<group>"; };
+		EB88E56E042F303CB26005072A07C7F1 /* GPUImageMissEtikateFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageMissEtikateFilter.h; sourceTree = "<group>"; };
+		EBD3C400EDD999CB45476857B61F7435 /* GSDocView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSDocView.h; sourceTree = "<group>"; };
+		EC5ACB6DDFD6F52FC3DA96B3EEB42240 /* GSH264Decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSH264Decoder.h; sourceTree = "<group>"; };
+		ECFC201268795A5D4C594F7AD5B856C8 /* GPUImageSketchFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageSketchFilter.h; sourceTree = "<group>"; };
+		EDCB4E252E6EBA95277E700CBA263130 /* GPUImageAverageColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageAverageColor.h; sourceTree = "<group>"; };
+		EE0E0C5E059D5B17FC0676BD2B58FDE4 /* GSAudioUnitProcessPlayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSAudioUnitProcessPlayProtocol.h; sourceTree = "<group>"; };
+		F504F4B3261366C02CF77A8BB824E173 /* GSCountDownCmd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSCountDownCmd.h; sourceTree = "<group>"; };
+		F58008788997BB4EB692D260224760AF /* GSBroadcastVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSBroadcastVideoDelegate.h; sourceTree = "<group>"; };
+		F6CD6417BA95FC0DCCE5ED9C7908A8E6 /* GSVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSVideoView.h; sourceTree = "<group>"; };
+		F88CA0F49F39AA757FE8959D3B4CEF52 /* GSConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSConstants.h; sourceTree = "<group>"; };
+		F8D85FA91213CEB0A70903AC2232879F /* GSTagsContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSTagsContentView.h; sourceTree = "<group>"; };
+		F9AAF1BCB16C43AF36DD7AB0E93634BD /* GSHeartbeatFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSHeartbeatFactory.h; sourceTree = "<group>"; };
+		FA9110634A1CFEE3E430EA042DC2C0D7 /* GSVideoConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSVideoConst.h; sourceTree = "<group>"; };
+		FB3CAD82971558C5973145D5AC3F1D29 /* GPUImageClosingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageClosingFilter.h; sourceTree = "<group>"; };
+		FC72DE8CEFFDC6513F99B4A8968C4C91 /* GPUImageHardLightBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageHardLightBlendFilter.h; sourceTree = "<group>"; };
+		FD8C71B3CA069C8722599C4BFE060F47 /* GPUImageGaussianSelectiveBlurFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageGaussianSelectiveBlurFilter.h; sourceTree = "<group>"; };
+		FEB71A41C3DB2C6D2832793C084DE619 /* Pods-TestPubicLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPubicLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		FEBF80714FA4CD971BBA41A1DF877EEB /* GPUImageBrightnessFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPUImageBrightnessFilter.h; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F8F6B4DCEB9153E04BF29FEF853FA1A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F39C9FB72625942B006E9921 /* libavutil.a in Frameworks */,
-				F39C9FBC2625942B006E9921 /* libswscale.a in Frameworks */,
-				F39C9FBB2625942B006E9921 /* liblibfaad.a in Frameworks */,
-				F39C9FBD2625942B006E9921 /* libx264.a in Frameworks */,
-				F39C9FC326259488006E9921 /* GSDocKit.framework in Frameworks */,
-				F39C9FC226259488006E9921 /* GSHeartbeatKit.framework in Frameworks */,
-				F39C9FC426259488006E9921 /* GPUImage.framework in Frameworks */,
-				F370B0DE2626877900C26BB6 /* RtSDK.framework in Frameworks */,
-				F39C9FBA2625942B006E9921 /* libswresample.a in Frameworks */,
-				F39C9FC526259488006E9921 /* GSCommonKit.framework in Frameworks */,
-				39F1A9178E52DC13954B8CBF601B8402 /* Foundation.framework in Frameworks */,
-				F39C9FB82625942B006E9921 /* libavcodec.a in Frameworks */,
-				F39C9FB92625942B006E9921 /* libavformat.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6A0340C2A0EEF9355592BC8ADBB04284 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				781BA28CA09C92681C1AA8E656EC5983 /* Foundation.framework in Frameworks */,
+				EA04A1EE3C0A2163DDC3768B613DEBD9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +423,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E6E5CF9235B5958D4509968F3EBDB25 /* Foundation.framework in Frameworks */,
+				0C38AD05D79CDDFA73FAFA27BD9D3BA7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,50 +431,172 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
-				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
-				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
-				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0933C44D83C50F316F61D23543C1CAD6 /* Pods-TestPubicLibrary_Tests */ = {
+		0983052D481B6F5370987AA48ED03C22 /* GPUImage.framework */ = {
 			isa = PBXGroup;
 			children = (
-				5CD4DB61320FF8D4FE12AB52073EEE98 /* Pods-TestPubicLibrary_Tests.modulemap */,
-				940A740005D1CB5426A6D93FC2E741FC /* Pods-TestPubicLibrary_Tests-acknowledgements.markdown */,
-				862BCE514899D686ADACF9253B2EC1CD /* Pods-TestPubicLibrary_Tests-acknowledgements.plist */,
-				71ED713ACC58DBEF3192D83ABB5D5C1E /* Pods-TestPubicLibrary_Tests-dummy.m */,
-				D8F26691174CA9BDD7247A67359327CD /* Pods-TestPubicLibrary_Tests-frameworks.sh */,
-				60226FFC79EB6F6217AA402DD6DFEE86 /* Pods-TestPubicLibrary_Tests-Info.plist */,
-				235305C8F34B4E1AFC730964B89BB13F /* Pods-TestPubicLibrary_Tests-umbrella.h */,
-				F7969E02CDAF10AC72B2877BC85E841C /* Pods-TestPubicLibrary_Tests.debug.xcconfig */,
-				7CC01176B40E9258BC27CB230D949BC6 /* Pods-TestPubicLibrary_Tests.release.xcconfig */,
+				80EE8B06444ECAEB987934D8C7B26DB7 /* Headers */,
 			);
-			name = "Pods-TestPubicLibrary_Tests";
-			path = "Target Support Files/Pods-TestPubicLibrary_Tests";
+			name = GPUImage.framework;
+			path = TestPubicLibrary/Classes/GPUImage.framework;
 			sourceTree = "<group>";
 		};
-		09C6F8E0A9F016D4A2A73B7CE725DC5F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E0C68B3AC2BE89EBC79EBD02BBF1E322 /* TestPubicLibrary */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0C63D3EEBB414DE6F99548042D7FCC9A /* Products */ = {
+		0E3B3E712D8549FFAE37A81BBD8C7445 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
 				8F7ADF3421495BA61F9447231BCC6800 /* Pods_TestPubicLibrary_Example.framework */,
 				436E504F8CD6725D06199EBCC36B3E33 /* Pods_TestPubicLibrary_Tests.framework */,
-				3FCF7EC673BF43BD1C4AAA84B2BACF26 /* TestPubicLibrary.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		159FC776BCFD3B8569EC3D042AF79103 /* Pods-TestPubicLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9137160DEA8380F6DBB0168DDA1FA52C /* Pods-TestPubicLibrary_Tests.modulemap */,
+				5B680C4765563EB78E4E302C5E102099 /* Pods-TestPubicLibrary_Tests-acknowledgements.markdown */,
+				372BC3168A7912E4F1E81F33A7694B2F /* Pods-TestPubicLibrary_Tests-acknowledgements.plist */,
+				60E3C318C19272C05D193146DFD0AD77 /* Pods-TestPubicLibrary_Tests-dummy.m */,
+				D8FB7C78B21EB95E4C20B4DD9D0D2F76 /* Pods-TestPubicLibrary_Tests-frameworks.sh */,
+				2DEB4523B1D5775E4A63C090DAC34318 /* Pods-TestPubicLibrary_Tests-Info.plist */,
+				053744F42A572C6D3E07356BEE231386 /* Pods-TestPubicLibrary_Tests-umbrella.h */,
+				25600D532542AE67BFFEE8CA94B9F1AB /* Pods-TestPubicLibrary_Tests.debug.xcconfig */,
+				848BB82320D4D5FB49DE8CB76AB6554B /* Pods-TestPubicLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-TestPubicLibrary_Tests";
+			path = "Target Support Files/Pods-TestPubicLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		20694D93EB25AF4580A6FEDCA402C5C3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E23B466ED23F95254C99ECA78585C313 /* GSHeartbeat.h */,
+				775629D19B5F760170DCA46E8CF51989 /* GSHeartbeatDelegate.h */,
+				F9AAF1BCB16C43AF36DD7AB0E93634BD /* GSHeartbeatFactory.h */,
+				C79558458ACE25E0122283C7E3AE49E4 /* GSHeartbeatKit.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		34AB41ECE0B335CAA8EBF047D46AE5E3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BE3ECAD85A455D9C68A4C7A2AB54DA62 /* GSAnnoView.h */,
+				D2D236AE39542DB003C943CCA5242843 /* GSDocAnnoProtocol.h */,
+				B5A6739BA50EB2B33B0670BA416E6407 /* GSDocKit.h */,
+				EBD3C400EDD999CB45476857B61F7435 /* GSDocView.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3D02862A57AC7C050B68B44CA1E8C48B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				48C57822B1929D6531713C0ED0E1D86B /* GenseeConfig.h */,
+				B288E542411B3BA050CD1EA3AA5203F3 /* GSAudioFactory.h */,
+				277A99F1EF515927854C0D40A2A89A92 /* GSAudioPlayProtocol.h */,
+				CCF014BA5E67C3A27EAC788B1B0441DE /* GSAudioUnitPlayer.h */,
+				8A86484014E430447DD2160604F4B284 /* GSAudioUnitProcess.h */,
+				EE0E0C5E059D5B17FC0676BD2B58FDE4 /* GSAudioUnitProcessPlayProtocol.h */,
+				2DFD36B57E03ACF0DB642EDEAEE2C083 /* GSAudioUnitProcessRecordProtocol.h */,
+				19BF1CA5C8DB4FD17AA428D372F247CA /* GSBaseEmotion.h */,
+				E8F205FB9D583357514BF2EE545912DF /* GSChatContentParse.h */,
+				30AFE520D3DD6530751A980632F636B6 /* GSCommonConst.h */,
+				112CAE550FC4DEADC889895BBBADB14F /* GSCommonKit.h */,
+				5743A1DD2D77DC13328F9D408E6EC8C2 /* GSCommonKitMacro.h */,
+				69A00C070C184E7C8996AD4B65058B70 /* GSConnectInfo.h */,
+				F88CA0F49F39AA757FE8959D3B4CEF52 /* GSConstants.h */,
+				F504F4B3261366C02CF77A8BB824E173 /* GSCountDownCmd.h */,
+				30D67D7976F8D0A6F7B4083C283F45DD /* GSDiagnosisInfo.h */,
+				A58AAB9906790D4AD5AED52D303E8422 /* GSDTConst.h */,
+				DC2568DB3728B4C617915223990D7B0A /* GSDTGroupInfo.h */,
+				86DE899C3990936AF42A37843ED6AFBA /* GSDTJoinParams.h */,
+				971B7C4BE682F3250BBBA0CEE497505C /* GSDTSubClass.h */,
+				41F05CFC71E19422BCC8EB389A6718DF /* GSExtraInitParam.h */,
+				D3EFE766D64E4D7AC40BC0E5E0B79150 /* GSFileDownload.h */,
+				35838B247BFAB993F3A3D0A3C8A8AFE7 /* GSFileUpload.h */,
+				090A0956007EE8F6B10D1FED618D1704 /* GSFileUtil.h */,
+				6A916F7432775D047BA5DB741898312D /* GSFileWriter.h */,
+				E398087C4F2F5EFE56D61DB955AF0C78 /* GSGLBuffer.h */,
+				90D8B60E61EE3903F658F88EDDE0D018 /* GSGLRender.h */,
+				C554A58E0682C7CCD25770DF6440B770 /* GSGLRenderColors.h */,
+				6A75B4AAF426B874159DDF4CF15004E3 /* GSGLRenderProtocol.h */,
+				4F2166EAFA874767FF6DA2E6590221CE /* GSGrabInfo.h */,
+				EC5ACB6DDFD6F52FC3DA96B3EEB42240 /* GSH264Decoder.h */,
+				89F2658CF435D2316B9715B37355C84F /* GSH264Encoder.h */,
+				630B1E08066D9DE51FC1F045B1C38CE9 /* GSHongbaoImplDelegate.h */,
+				841247C55C00BEC4C1ADFC9E18D4E6B3 /* GSHongbaoImplParams.h */,
+				82CE8FA3E94F6D7D40FD1A26B47E66AD /* GSLayoutInfo.h */,
+				6DE07755A6CCC22DAABF55EA176CA14A /* GSLFVideoFrame.h */,
+				5F075A4F7D809BFECD55E2ACB20D8915 /* GSLiveAudioConfiguration.h */,
+				B2E54B152676EBB6C3438FC1F599414F /* GSLiveVideoConfiguration.h */,
+				1D68418AB7F1AD4513DC1F83EB26AFC8 /* GSMediaAuthor.h */,
+				25FC5EE699ABCD1E0D9E8BA13CC14A85 /* GSMediator.h */,
+				4D440BA9CD6433AAA3461016C1C52637 /* GSNotificationManager.h */,
+				CB38332331BD1F783B872FCF6A2B5641 /* GSPCMWriter.h */,
+				5688DF17FB9086B978C3B8CD6B167A0E /* GSReachability.h */,
+				947E16998F968890C78DF265C5FFECC0 /* GSRequest.h */,
+				117B60C817CA47D1AC4EE7DEA83F692B /* GSResponder.h */,
+				4A8134E503106BA1AE8A2972AF8B6A5B /* GSSDLGLView.h */,
+				A4F156716CF77867279D0CDBBE554079 /* GSSMSCodeInfo.h */,
+				F8D85FA91213CEB0A70903AC2232879F /* GSTagsContentView.h */,
+				97D4261A0F38B7FDD8F68ED3672F4AEE /* GSTextAttributeLabel.h */,
+				9049B6F07F0EF2E125326F70C5ED85C3 /* GSThreadSafeArray.h */,
+				C74FAA3292E48143E5280EB128CA5AFC /* GSThreadSafeDictionary.h */,
+				A87AA872AE563B33823A4D94AE847632 /* GSTimeIntervalLog.h */,
+				AE5944DB26521CF53CD5C8A7351E8ECD /* GSTrafficMonitoring.h */,
+				4332148F2F24804DE4D6BE9F1A24EFB4 /* GSUserInfo.h */,
+				618295EA9D6921730123BD46C9085A63 /* GSUserManager.h */,
+				350FB01A21EC53BCA668DD2765F8ABC8 /* GSVideoCapture.h */,
+				FA9110634A1CFEE3E430EA042DC2C0D7 /* GSVideoConst.h */,
+				CEC5D75965F991549F928D085594BC6F /* GSWatermarkView.h */,
+				ADC7FECF6506A675133B200C9410C85D /* GSWeakProxy.h */,
+				08AB6007F59CBBF6BE019BB9C26DD9EB /* GSWebAccess.h */,
+				44FE1B7466D86E2738C9084CDD1D5151 /* GSXMLReader.h */,
+				712C471855A18DD8B6CF5B59AB100C19 /* GSZipArchive.h */,
+				8AD3BAB4B6AA09D87F1E922E80A66E96 /* NSString+GSURLEncode.h */,
+				5782CF228CABB19A662E9531D52A7BBE /* UIView+GSRectExtension.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3EE34F99F4B0F9D8A172F3C8DA341F3F /* TestPubicLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				CED12E0ADDBC775DEB523D257BD6FA24 /* Frameworks */,
+				0983052D481B6F5370987AA48ED03C22 /* GPUImage.framework */,
+				B639FF6E2255EF40C7E29334132385EF /* GSCommonKit.framework */,
+				9987C77C4AFC13287824887C3C9C0C77 /* GSDocKit.framework */,
+				73D08F7B95DE2AF44F1FDDE48D9D5518 /* GSHeartbeatKit.framework */,
+				A7452665E6236C7ED48CF16E1900B161 /* Pod */,
+				E666A83EE4C1E320F73A92D19F3DB640 /* RtSDK.framework */,
+				4A6A1AB22A55ABC26F85E528DEF38422 /* Support Files */,
+			);
+			name = TestPubicLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4A6A1AB22A55ABC26F85E528DEF38422 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BC771F6791F8BCBDBB1BC6E9F3F0304 /* TestPubicLibrary.debug.xcconfig */,
+				B787D7CB686CF096B3567B82932C2968 /* TestPubicLibrary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TestPubicLibrary";
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -257,46 +620,245 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		650532399E56E33FBD79FFBE4321344D /* Pod */ = {
+		73D08F7B95DE2AF44F1FDDE48D9D5518 /* GSHeartbeatKit.framework */ = {
 			isa = PBXGroup;
 			children = (
-				6170E34FB0962AED4281A5F9956B3B11 /* LICENSE */,
-				776CA5014A136D7D6525B4F6553C572B /* README.md */,
-				6F08D05017E90EA30BD03F81F5CF17D2 /* TestPubicLibrary.podspec */,
+				20694D93EB25AF4580A6FEDCA402C5C3 /* Headers */,
 			);
-			name = Pod;
+			name = GSHeartbeatKit.framework;
+			path = TestPubicLibrary/Classes/GSHeartbeatKit.framework;
 			sourceTree = "<group>";
 		};
-		705621C2E93C3E81A03AF1C942E9FA66 /* Pods-TestPubicLibrary_Example */ = {
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				51686A27C1153641248E09BE7D3ECF24 /* Pods-TestPubicLibrary_Example.modulemap */,
-				B89571C964B49805E14F8EA070E61AF9 /* Pods-TestPubicLibrary_Example-acknowledgements.markdown */,
-				66219AB2C9B7B1FBEF04371870560BD5 /* Pods-TestPubicLibrary_Example-acknowledgements.plist */,
-				5FFDD3D5804EA37D1486F5D9DFAB8093 /* Pods-TestPubicLibrary_Example-dummy.m */,
-				A2553D2351E95F44D607AC687BDC883B /* Pods-TestPubicLibrary_Example-frameworks.sh */,
-				CF6EDFA3781F2F5EADD5559EB906B15A /* Pods-TestPubicLibrary_Example-Info.plist */,
-				07193781C0A7CB9730A1DD57B3B8A3E2 /* Pods-TestPubicLibrary_Example-umbrella.h */,
-				1366490274F30396BDE4883153873172 /* Pods-TestPubicLibrary_Example.debug.xcconfig */,
-				31FBAB9C06C40D9BE19B98048F07976B /* Pods-TestPubicLibrary_Example.release.xcconfig */,
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
 			);
-			name = "Pods-TestPubicLibrary_Example";
-			path = "Target Support Files/Pods-TestPubicLibrary_Example";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		8F8D4E0B20775B9C8B3AB0C5AEAEC9E7 /* Support Files */ = {
+		80EE8B06444ECAEB987934D8C7B26DB7 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				42A4AA69DBCEE243DE13F57EF3EB3959 /* TestPubicLibrary.modulemap */,
-				8337248ABDE3F8D795144E5EFD8451DE /* TestPubicLibrary-dummy.m */,
-				94B4EF5216F698302E00BD079BD4EB79 /* TestPubicLibrary-Info.plist */,
-				9BB95B772EB9983E0C6C69E7CE812095 /* TestPubicLibrary-prefix.pch */,
-				EA1EB48F8CE4F94371DA794368FA2ADB /* TestPubicLibrary-umbrella.h */,
-				0B437BEC5213E813AA10C43FA73404B2 /* TestPubicLibrary.debug.xcconfig */,
-				9285F3B0BD9F2B8F082C929D5A7113E8 /* TestPubicLibrary.release.xcconfig */,
+				601B125C1CC1CC560B06C09FDDD7349E /* GLProgram.h */,
+				965CA4356985FB964C02EDA21F346038 /* GPUImage.h */,
+				8E0E2D0C231F78E0BEDA3764F64E1EC3 /* GPUImage3x3ConvolutionFilter.h */,
+				75B6D999759D5793452F79360A765346 /* GPUImage3x3TextureSamplingFilter.h */,
+				0E478B9DA5C63EC6BA9CA9D39ED319FC /* GPUImageAdaptiveThresholdFilter.h */,
+				D1E7D6D7C31419343A03632974621586 /* GPUImageAddBlendFilter.h */,
+				C6DBE242FB9DCCF693F43AAECE948FF7 /* GPUImageAlphaBlendFilter.h */,
+				7F96C403A96DE1293BBACEED7D11A7E8 /* GPUImageAmatorkaFilter.h */,
+				EDCB4E252E6EBA95277E700CBA263130 /* GPUImageAverageColor.h */,
+				A53962D1499C01DFCC6A0C86D1C5EE05 /* GPUImageAverageLuminanceThresholdFilter.h */,
+				2FB95D215CCBC394909E2A18726F140F /* GPUImageBeautifyFilter.h */,
+				844D9CFD7839C9D30061F945827FA5B4 /* GPUImageBilateralFilter.h */,
+				878ED934AC25531106B229133FA48437 /* GPUImageBoxBlurFilter.h */,
+				FEBF80714FA4CD971BBA41A1DF877EEB /* GPUImageBrightnessFilter.h */,
+				8595D458AAC69944EA80DE66FD8880B7 /* GPUImageBuffer.h */,
+				C7B437B2E5DC7FFF7801F17DC15181A3 /* GPUImageBulgeDistortionFilter.h */,
+				9B1913EC87FE6570F8E505EF87242C18 /* GPUImageCannyEdgeDetectionFilter.h */,
+				6DE50C50B1FF28FFAE17FBFC155A0D60 /* GPUImageCGAColorspaceFilter.h */,
+				279A89A34146820B479DEF2504834845 /* GPUImageChromaKeyBlendFilter.h */,
+				A58BDADF86BB3143B21A573C4CB61522 /* GPUImageChromaKeyFilter.h */,
+				FB3CAD82971558C5973145D5AC3F1D29 /* GPUImageClosingFilter.h */,
+				AF41DB69AF1C731E7A3AA9779C17BEEB /* GPUImageColorBlendFilter.h */,
+				3A88727EB7C1A85BCF91C779AD9B6F61 /* GPUImageColorBurnBlendFilter.h */,
+				40DA2D200EDB2B2DB375FBB757BE604B /* GPUImageColorConversion.h */,
+				656BCB9D7ED74F9CB51039D3C5F280EA /* GPUImageColorDodgeBlendFilter.h */,
+				A7B9F7AE23A9DA274EFF5504C34218AA /* GPUImageColorInvertFilter.h */,
+				CC1450581247BD4CC6F0ED357A6B1972 /* GPUImageColorLocalBinaryPatternFilter.h */,
+				BBEF66602B6C00F7FAE442637E67FFDB /* GPUImageColorMatrixFilter.h */,
+				3183951EEA0CF79449BFDCCC7D20B036 /* GPUImageColorPackingFilter.h */,
+				4B16E0FC26BE62859B6510A319D72D17 /* GPUImageColourFASTFeatureDetector.h */,
+				21940A87FDFC89620041F10262D70795 /* GPUImageColourFASTSamplingOperation.h */,
+				2E938B119B32ED49E7C3EFA9E42BD9EE /* GPUImageContext.h */,
+				3FF8BB427187E0EA604EA8BBAA20981A /* GPUImageContrastFilter.h */,
+				28680B95A65467EE08549B8C8949BBF7 /* GPUImageCropFilter.h */,
+				03A0287068F627AC2ED82BE06C3A9A8F /* GPUImageCrosshairGenerator.h */,
+				30AFF8A930CD155CF21A3721CD4F35FF /* GPUImageCrosshatchFilter.h */,
+				E4C801032797B90C31EA510C2002F360 /* GPUImageDarkenBlendFilter.h */,
+				36584F58F9A0F66ABFEB2D79FF838CC3 /* GPUImageDifferenceBlendFilter.h */,
+				3045D4CDE459221CE5B2CD7E45941B29 /* GPUImageDilationFilter.h */,
+				6F24B9AFBC6ED99B21B1EEEDD63CF069 /* GPUImageDirectionalNonMaximumSuppressionFilter.h */,
+				DAB9F8145D4D4E4B30C36D08FF2ABD06 /* GPUImageDirectionalSobelEdgeDetectionFilter.h */,
+				B6A544F4DEB9EA77A227F9268015FADC /* GPUImageDissolveBlendFilter.h */,
+				CFD0F7A553E6DC5FEC1922DE50C0426D /* GPUImageDivideBlendFilter.h */,
+				454B2593B0B527D706E98F7BD76200D1 /* GPUImageEmbossFilter.h */,
+				3FF588A1492D491EE01B3D137F4B29F0 /* GPUImageErosionFilter.h */,
+				046A632C8F1E13E5C69B2A56AFAA9385 /* GPUImageExclusionBlendFilter.h */,
+				6C7ED8FB5801CDFBBBB96F133B07E2D8 /* GPUImageExposureFilter.h */,
+				D2D8D941A9AE49523275300284F2F8D8 /* GPUImageFalseColorFilter.h */,
+				A25C658C61C57551E909598646E4DFEC /* GPUImageFASTCornerDetectionFilter.h */,
+				C30E1D0F5D91F5D666201D83D48F6AF4 /* GPUImageFilter.h */,
+				EA8FCEB0F0A5B7FB16FDB0E7569E05D8 /* GPUImageFilterGroup.h */,
+				24B22FA894AE7525616AF65C03DD8BB5 /* GPUImageFilterPipeline.h */,
+				52DE428CA33F72AD7809079DC5CCB53C /* GPUImageFourInputFilter.h */,
+				8EF6BDCCBB0B7789FB7EA8797DDFD150 /* GPUImageFramebuffer.h */,
+				975E447A9A526B8F03D0BF1D43E6D675 /* GPUImageFramebufferCache.h */,
+				6FD5B31CBDC6C800831C49F9F6D7A9F5 /* GPUImageFramework.h */,
+				AD594D5793971C30D756E372C9ABA5B7 /* GPUImageGammaFilter.h */,
+				3708F0B7A10853CB7CC78EAFE710712F /* GPUImageGaussianBlurFilter.h */,
+				4F587CDC32B44B796F5FB64BF3E7DE4F /* GPUImageGaussianBlurPositionFilter.h */,
+				FD8C71B3CA069C8722599C4BFE060F47 /* GPUImageGaussianSelectiveBlurFilter.h */,
+				8C108DC0826AD0CFA7568B54F3EECC2F /* GPUImageGlassSphereFilter.h */,
+				44B73868D03D37C2F174A3F5EFA751AB /* GPUImageGrayscaleFilter.h */,
+				BE78701CF3B2535B31CFCB3BCBD49CD0 /* GPUImageHalftoneFilter.h */,
+				FC72DE8CEFFDC6513F99B4A8968C4C91 /* GPUImageHardLightBlendFilter.h */,
+				06E099CE04D970BDF52BF93D3FE92E25 /* GPUImageHarrisCornerDetectionFilter.h */,
+				8A9DDF6B4BCA8E335531341F0F3ECDE4 /* GPUImageHazeFilter.h */,
+				B3106299DF2B3C657C9B9AF9F567966C /* GPUImageHighlightShadowFilter.h */,
+				B922546F327C0C4DAD8576A1C77602E6 /* GPUImageHighPassFilter.h */,
+				A84200DD6DA0318C1A4D9003120835FF /* GPUImageHistogramEqualizationFilter.h */,
+				35118BDAEDD55CD47A0DBF85117F1133 /* GPUImageHistogramFilter.h */,
+				32D8355C337B2509F1AA0BA86B13B3D2 /* GPUImageHistogramGenerator.h */,
+				44A337B569D5D0632394D90EA5CFDAF5 /* GPUImageHoughTransformLineDetector.h */,
+				DD2970FD76203D05E30417DCEF6F7635 /* GPUImageHSBFilter.h */,
+				CFC33E49B8C958DD50B4BF9661598A2C /* GPUImageHueBlendFilter.h */,
+				B02472518A47C814BAD000C8BDB2A673 /* GPUImageHueFilter.h */,
+				304469C264A2DFEEEEDE0EC46E1ADD51 /* GPUImageiOSBlurFilter.h */,
+				2C2B3D3396BAE4637D75492E4EDAB007 /* GPUImageJFAVoronoiFilter.h */,
+				8DC1A7D6E4554CA9E45D23E4A49FC54F /* GPUImageKuwaharaFilter.h */,
+				64FD6AFFF3372D9A659DF7D77B6ECC10 /* GPUImageKuwaharaRadius3Filter.h */,
+				555C3C3761EDA309626D46F7C36D71FF /* GPUImageLanczosResamplingFilter.h */,
+				4383297F50767A191D2927C52984A04C /* GPUImageLaplacianFilter.h */,
+				8AD7530C48C0312002F204EC546056E0 /* GPUImageLevelsFilter.h */,
+				742772B7BCB065267A166A5B31810B1E /* GPUImageLightenBlendFilter.h */,
+				578C0858A402D02FDFAF893F452AF692 /* GPUImageLinearBurnBlendFilter.h */,
+				7C07B19A5218AA78A7ACB93AB792BA0D /* GPUImageLineGenerator.h */,
+				A03F89153C1A57A7CC717FBBA309E0B1 /* GPUImageLocalBinaryPatternFilter.h */,
+				1B61DBB45D15B4515FDDFABE198B1440 /* GPUImageLookupFilter.h */,
+				30C7609EE40BDD7217CE8564C07D1E34 /* GPUImageLowPassFilter.h */,
+				037A1B60AAA41FC280DF583EBA2E53C6 /* GPUImageLuminanceRangeFilter.h */,
+				56B8E3FB7C70DECDEEC17A196CD8D047 /* GPUImageLuminanceThresholdFilter.h */,
+				3F67346B0DA2B0AE90F85C837CB240F8 /* GPUImageLuminosity.h */,
+				4320A859A659EE7742617EC673F4126E /* GPUImageLuminosityBlendFilter.h */,
+				340C4377B8FA7C05F67E9C3F3A51F80D /* GPUImageMaskFilter.h */,
+				C3D12A3956FA93A8A2B77B823B7CC833 /* GPUImageMedianFilter.h */,
+				EB88E56E042F303CB26005072A07C7F1 /* GPUImageMissEtikateFilter.h */,
+				4A1C8C3AAC7E1442A9E8962FD82D6CBC /* GPUImageMonochromeFilter.h */,
+				290374FC7DC40353056B3D2FCB371180 /* GPUImageMosaicFilter.h */,
+				9E86E47B7A40411299C3D9BE4D5AB200 /* GPUImageMotionBlurFilter.h */,
+				17DEF714A610CF1E496DE1371A76A572 /* GPUImageMotionDetector.h */,
+				7D5CE4411A39C80DDA0B73CF52BFB66C /* GPUImageMovie.h */,
+				7A3D8BE954D872BD83B5EBE33261A2C9 /* GPUImageMovieComposition.h */,
+				89F4295A3B2702F568A460567FDD5CF0 /* GPUImageMovieWriter.h */,
+				A8AA12270D1E85110E583FE9124F295F /* GPUImageMultiplyBlendFilter.h */,
+				E6F85A7148C46C9C9292FEDEDC8A79DB /* GPUImageNobleCornerDetectionFilter.h */,
+				C658D4DF8CA2D007531D399A7322B86B /* GPUImageNonMaximumSuppressionFilter.h */,
+				B6E9CF610EA005DFD9119258F4B79D37 /* GPUImageNormalBlendFilter.h */,
+				8975A4E4D9E259FC3B1B13C04291CEB1 /* GPUImageOpacityFilter.h */,
+				32FB93E337CB9C9F2EB20591782DF5E5 /* GPUImageOpeningFilter.h */,
+				7ECE6F41E5C53F2B2233D32054E88D84 /* GPUImageOutput.h */,
+				CEDF7DEE3AA3CFACD3C7618C766310F5 /* GPUImageOverlayBlendFilter.h */,
+				08CE7B2F621C6EA85F52822A810CDA1B /* GPUImageParallelCoordinateLineTransformFilter.h */,
+				CD9BDFA605AB2C3A9587E462A7BC2434 /* GPUImagePerlinNoiseFilter.h */,
+				36182E8BA8A660A4941D10C1756E0840 /* GPUImagePicture.h */,
+				7813EF96015130A5E65C79DB37B281AC /* GPUImagePinchDistortionFilter.h */,
+				655EF25D42081F8E8D9B9D2A7FCF7B60 /* GPUImagePixellateFilter.h */,
+				C8BD2A561A26A14B52BCA3E2104EB469 /* GPUImagePixellatePositionFilter.h */,
+				130AA9209193799B0A698DBA6CBF571A /* GPUImagePoissonBlendFilter.h */,
+				B5283E8843E4BC287340E8A5006E92CD /* GPUImagePolarPixellateFilter.h */,
+				7D4D9DE1508B5E0532D2366F7A3ACC5F /* GPUImagePolkaDotFilter.h */,
+				7762FF36DFCA9D8C2783A16B80D083C6 /* GPUImagePosterizeFilter.h */,
+				35CA4D51CEE361ACF603D0982BD75FD8 /* GPUImagePrewittEdgeDetectionFilter.h */,
+				EA432949EE889653325BCD29EE027C05 /* GPUImageRawDataInput.h */,
+				A945753911BDA271CB76C92ECAABA442 /* GPUImageRawDataOutput.h */,
+				3AEE895922DA14FD9A7A5F149C3B592A /* GPUImageRGBClosingFilter.h */,
+				6078AB33E2C0D392FB7CEE551DC96F07 /* GPUImageRGBDilationFilter.h */,
+				DF74FF89FF123B9497F61B8973F6DFA8 /* GPUImageRGBErosionFilter.h */,
+				7E1C1E0A8937C531FDBAD816CACAC58E /* GPUImageRGBFilter.h */,
+				29830233160029352CACDC037D70C6EC /* GPUImageRGBOpeningFilter.h */,
+				45A70EDCF2411CCA26A4474E18CBD6B8 /* GPUImageSaturationBlendFilter.h */,
+				2DFCF7B85A5AE2E5305EB382C688582D /* GPUImageSaturationFilter.h */,
+				43D222647FFDBC6528B73533C007A749 /* GPUImageScreenBlendFilter.h */,
+				0CBEE1F3507599F764276BE0601303D1 /* GPUImageSepiaFilter.h */,
+				2540F356AC5D82458FA4EF16B778DD0E /* GPUImageSharpenFilter.h */,
+				79832229E522172B1365500670EA8EDE /* GPUImageShiTomasiFeatureDetectionFilter.h */,
+				A1F347F4F4CC7657450686F06CEB8F16 /* GPUImageSingleComponentGaussianBlurFilter.h */,
+				ECFC201268795A5D4C594F7AD5B856C8 /* GPUImageSketchFilter.h */,
+				1685292C5AD50B6A0C167F268DC7ED1E /* GPUImageSmoothToonFilter.h */,
+				53D6B98C3919CA8B99A23CB72C91FDB7 /* GPUImageSobelEdgeDetectionFilter.h */,
+				E74CB2F0F34DF48E008378F289A471E2 /* GPUImageSoftEleganceFilter.h */,
+				CC088466DE9B8D07B4C47CECFDEA77FB /* GPUImageSoftLightBlendFilter.h */,
+				3FE6828AD2D52FAF63EE9496EF64200A /* GPUImageSolarizeFilter.h */,
+				06B19A43DE13EC50D60DF2654BE32AD5 /* GPUImageSolidColorGenerator.h */,
+				D0C651292C3BF19BD4789215EDD1D46D /* GPUImageSourceOverBlendFilter.h */,
+				230206F06964EBE1C8CBDB04DA4CD786 /* GPUImageSphereRefractionFilter.h */,
+				67575CC1BE3BF2B38E4C0F0F7AE8C7FE /* GPUImageStretchDistortionFilter.h */,
+				3B579D3DFF4ACE5CA80BC346E737D9B4 /* GPUImageSubtractBlendFilter.h */,
+				8127106F27BFC2DFB0C6A44459C6BA9B /* GPUImageSwirlFilter.h */,
+				0068C748D512B62E0CA3E1C2B79FAC37 /* GPUImageTextureInput.h */,
+				1ADBCF7E3987356BC695F278834EE898 /* GPUImageTextureOutput.h */,
+				307FD21A0E4557284BB5AEA135C461AF /* GPUImageThreeInputFilter.h */,
+				52CB070AF56860371CA1D02513CC4656 /* GPUImageThresholdEdgeDetectionFilter.h */,
+				0340A0C1249007AF7CE05E810C1D987A /* GPUImageThresholdedNonMaximumSuppressionFilter.h */,
+				535B8E8E8E3E22D7EADB4A3FB639AF7B /* GPUImageThresholdSketchFilter.h */,
+				DAD551C26AA5D21B7D8090F801776987 /* GPUImageTiltShiftFilter.h */,
+				3B9F9A0D8A2388F18A642D0AD773B8FE /* GPUImageToneCurveFilter.h */,
+				0493FEC3EB8E94D8DC5CBD2332AC5084 /* GPUImageToonFilter.h */,
+				A9F088AD67DD1321E0F4BD63507BC878 /* GPUImageTransformFilter.h */,
+				7EEFBC242451E58085223ADC77CA5CCE /* GPUImageTwoInputCrossTextureSamplingFilter.h */,
+				BB4334AB0FD4268C1DCD1BB3BE47E3EA /* GPUImageTwoInputFilter.h */,
+				5E228BDA7284BE6DF2E1632BE2B1277B /* GPUImageTwoPassFilter.h */,
+				A5D0817E9A8871045641B7BE9A0972CF /* GPUImageTwoPassTextureSamplingFilter.h */,
+				3169D02D7EE47DDE543C698E55E0DDC2 /* GPUImageUIElement.h */,
+				4089EE3BFFBC9CFF7164C283A939FAAC /* GPUImageUnsharpMaskFilter.h */,
+				C399127E38F9C203D8BD61E802327804 /* GPUImageVideoCamera.h */,
+				05A9D5CB206611D68E15516480E35A48 /* GPUImageView.h */,
+				301F9C266F7A3C4935129C49BCFD2F6C /* GPUImageVignetteFilter.h */,
+				BE7E3CC7EDA13CD60D12D2A9BBFAC70C /* GPUImageVoronoiConsumerFilter.h */,
+				09D1043F7E88E53371DA4725E6DE4F9F /* GPUImageWeakPixelInclusionFilter.h */,
+				4B9ECB8B45C1EA5A70C666B8CAD7822D /* GPUImageWhiteBalanceFilter.h */,
+				523099BE6FB4CC594B83BCA2779E1E6F /* GPUImageXYDerivativeFilter.h */,
+				53712A3E07131C8885D9BD0B7F32E9D7 /* GPUImageZoomBlurFilter.h */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TestPubicLibrary";
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		82C1438AEB0E7705E014738F5B46765A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE34F99F4B0F9D8A172F3C8DA341F3F /* TestPubicLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8D094CE2E0E06663B160374279B79AB4 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				82760D7EB23E9BE53A07A3DED34C6594 /* GSBroadcastAudioDelegate.h */,
+				D341A80C8C0A3274A95A4D480A993F84 /* GSBroadcastChatDelegate.h */,
+				8DECFC8321CFBEE8BA45711E105A1727 /* GSBroadcastDesktopShareDelegate.h */,
+				0B83B78D354ED78324D38A3FCCBBECE7 /* GSBroadcastDocumentDelegate.h */,
+				9AADA860E051A86ECB937373651CBAB5 /* GSBroadcastFtDelegate.h */,
+				2E1A0E2E75DD76CD03A563216A2B819D /* GSBroadcastHongbaoDelegate.h */,
+				2FF0116B09F7151BD5B2DF368BA87669 /* GSBroadcastInvestigationDelegate.h */,
+				051A7FE144006D9D3687065B429279FA /* GSBroadcastLodDelegate.h */,
+				DDFE65F12AD751358A46EB2F0918C897 /* GSBroadcastManager.h */,
+				272750E0E1FA6A7E1A75025CC0E431F0 /* GSBroadcastPraiseDelegate.h */,
+				C917F89518DC6286A0349E65F0D85C09 /* GSBroadcastProtocol.h */,
+				E7D184C8AEFCE82C7651D0D7A739CBBE /* GSBroadcastQaDelegate.h */,
+				E86DFAF060F9C7BC1F214F860B09C9D7 /* GSBroadcastRoomDelegate.h */,
+				1C673988726A04F454E8ECFFA16E1D6A /* GSBroadcastValues.h */,
+				F58008788997BB4EB692D260224760AF /* GSBroadcastVideoDelegate.h */,
+				7B5F4FDB08E3CA4DCED114912A0E1774 /* GSChatMessage.h */,
+				196E0321D55F0D9A7D5748DE9A06811A /* GSInvestigation.h */,
+				2570233E895303F86F0A8A18BFF0980E /* GSLodItem.h */,
+				CCF4B29912A638570FB5D5F8F8D9B007 /* GSMovieGLView.h */,
+				3F8763713B314EAE5F40EF31615D3BB7 /* GSPraiseUserInfo.h */,
+				3AB0E24F22732848051EE8786F7D769D /* GSQuestion.h */,
+				B7B50F11C38DA437ECF5D35EB42CABA6 /* GSRtConst.h */,
+				864284459AF0655F78AEF4A00540B9EE /* GSTipInfo.h */,
+				732DB47663F9F5832B9FB336EDE83DF7 /* GSVideoFrame.h */,
+				F6CD6417BA95FC0DCCE5ED9C7908A8E6 /* GSVideoView.h */,
+				B7DE7A587B06E6637AF923CB70C60A82 /* RtSDK.h */,
+			);
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -305,6 +867,35 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9987C77C4AFC13287824887C3C9C0C77 /* GSDocKit.framework */ = {
+			isa = PBXGroup;
+			children = (
+				34AB41ECE0B335CAA8EBF047D46AE5E3 /* Headers */,
+			);
+			name = GSDocKit.framework;
+			path = TestPubicLibrary/Classes/GSDocKit.framework;
+			sourceTree = "<group>";
+		};
+		A7452665E6236C7ED48CF16E1900B161 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				08F88791A260D0D055A7D39E78795E38 /* LICENSE */,
+				BD146A0E70EBF668ACBEEBAE8662327B /* module.modulemap */,
+				A5FD5B2F97FA99BAE908AC6A25833D09 /* README.md */,
+				42278C2D0F83B191E5FB39D5EF00AA0E /* TestPubicLibrary.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B639FF6E2255EF40C7E29334132385EF /* GSCommonKit.framework */ = {
+			isa = PBXGroup;
+			children = (
+				3D02862A57AC7C050B68B44CA1E8C48B /* Headers */,
+			);
+			name = GSCommonKit.framework;
+			path = TestPubicLibrary/Classes/GSCommonKit.framework;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -325,7 +916,7 @@
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -337,44 +928,74 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		C78DC1491B6E24FC3CDA31F31A7361FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFD099C6A4CBA1777AB49A9183C252EA /* Pods-TestPubicLibrary_Example */,
+				159FC776BCFD3B8569EC3D042AF79103 /* Pods-TestPubicLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CED12E0ADDBC775DEB523D257BD6FA24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B12E26EA219ECD6281CB7F4A57B4EDBF /* GPUImage.framework */,
+				D23E3ECB6AA502B9EB903B21AD48024E /* GSCommonKit.framework */,
+				45ECA3B46D8B2502241783FED43E3093 /* GSDocKit.framework */,
+				EB796684B62C19E23C149E0D46A2D84D /* GSHeartbeatKit.framework */,
+				8BD54386DDE76013E333BDB6DB624D97 /* libavcodec.a */,
+				AA846D2E50322CCE6A6BD1707DAE472A /* libavformat.a */,
+				7584524A4457AA2E2C4AA9C8543EC722 /* libavutil.a */,
+				0AF886BBA30DC075351890C45FFDF6C4 /* liblibfaad.a */,
+				33FE6074D4B5CB216C0B1AAA6D5BE138 /* libPlayerSDKLib.a */,
+				DDB3AE2E5355E1DEAFD90B1E4638A008 /* libswresample.a */,
+				A156F0D6772A492057592BC47397A12C /* libswscale.a */,
+				955D5FBA9E6E2FF88E955A12CFDA2031 /* libx264.a */,
+				993E7A019D5D9F7F0FDF6085630671C9 /* RtSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				09C6F8E0A9F016D4A2A73B7CE725DC5F /* Development Pods */,
+				82C1438AEB0E7705E014738F5B46765A /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				0C63D3EEBB414DE6F99548042D7FCC9A /* Products */,
-				E79469E91BAA9337E4ADF970E3C643A7 /* Targets Support Files */,
+				0E3B3E712D8549FFAE37A81BBD8C7445 /* Products */,
+				C78DC1491B6E24FC3CDA31F31A7361FB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E0C68B3AC2BE89EBC79EBD02BBF1E322 /* TestPubicLibrary */ = {
+		DFD099C6A4CBA1777AB49A9183C252EA /* Pods-TestPubicLibrary_Example */ = {
 			isa = PBXGroup;
 			children = (
-				F370B0DD2626877800C26BB6 /* RtSDK.framework */,
-				F39C9FC026259487006E9921 /* GPUImage.framework */,
-				F39C9FC126259487006E9921 /* GSCommonKit.framework */,
-				F39C9FBF26259487006E9921 /* GSDocKit.framework */,
-				F39C9FBE26259487006E9921 /* GSHeartbeatKit.framework */,
-				F39C9FAF2625942B006E9921 /* libs */,
-				650532399E56E33FBD79FFBE4321344D /* Pod */,
-				8F8D4E0B20775B9C8B3AB0C5AEAEC9E7 /* Support Files */,
+				FEB71A41C3DB2C6D2832793C084DE619 /* Pods-TestPubicLibrary_Example.modulemap */,
+				9131E69F6B1DA7FCB9AA15D26C61FD4F /* Pods-TestPubicLibrary_Example-acknowledgements.markdown */,
+				46DA945D16EE8F393120AC11DB5D0F80 /* Pods-TestPubicLibrary_Example-acknowledgements.plist */,
+				BCEDE183B2A80D41DEE68D94987469B4 /* Pods-TestPubicLibrary_Example-dummy.m */,
+				E4F8891DA6A252E57E305EAB0DA7286D /* Pods-TestPubicLibrary_Example-Info.plist */,
+				008D3281E60A4BFB37CA75CCE526636E /* Pods-TestPubicLibrary_Example-umbrella.h */,
+				CD69B9C4E99D611195C387BA28DEA84C /* Pods-TestPubicLibrary_Example.debug.xcconfig */,
+				61C3CA666C24B7FAA127DB92576748FF /* Pods-TestPubicLibrary_Example.release.xcconfig */,
 			);
-			name = TestPubicLibrary;
-			path = ../..;
+			name = "Pods-TestPubicLibrary_Example";
+			path = "Target Support Files/Pods-TestPubicLibrary_Example";
 			sourceTree = "<group>";
 		};
-		E79469E91BAA9337E4ADF970E3C643A7 /* Targets Support Files */ = {
+		E666A83EE4C1E320F73A92D19F3DB640 /* RtSDK.framework */ = {
 			isa = PBXGroup;
 			children = (
-				705621C2E93C3E81A03AF1C942E9FA66 /* Pods-TestPubicLibrary_Example */,
-				0933C44D83C50F316F61D23543C1CAD6 /* Pods-TestPubicLibrary_Tests */,
+				8D094CE2E0E06663B160374279B79AB4 /* Headers */,
 			);
-			name = "Targets Support Files";
+			name = RtSDK.framework;
+			path = TestPubicLibrary/Classes/RtSDK.framework;
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -383,32 +1004,6 @@
 				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F39C9FAF2625942B006E9921 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				F39C9FB02625942B006E9921 /* libavutil.a */,
-				F39C9FB12625942B006E9921 /* libavcodec.a */,
-				F39C9FB22625942B006E9921 /* libavformat.a */,
-				F39C9FB32625942B006E9921 /* libswresample.a */,
-				F39C9FB42625942B006E9921 /* liblibfaad.a */,
-				F39C9FB52625942B006E9921 /* libswscale.a */,
-				F39C9FB62625942B006E9921 /* libx264.a */,
-			);
-			name = libs;
-			path = TestPubicLibrary/Classes/libs;
-			sourceTree = "<group>";
-		};
-		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
-				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
-				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
-				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,14 +1040,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7972B519AC88EC2A489ACB3286B1DB5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				826CD0BDF4DB2AB26BAA0BA710F5DBCA /* TestPubicLibrary-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -468,30 +1055,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				3FDBA01D6AD77C2614815C915C385F4B /* PBXTargetDependency */,
-				60A977116D3D4ECB2AC1ACE98EC961BC /* PBXTargetDependency */,
+				77F7553A5B386043D1127654A6A27FF6 /* PBXTargetDependency */,
+				FCF44AE531781F49DC85D6A19DEB5B1B /* PBXTargetDependency */,
 			);
 			name = "Pods-TestPubicLibrary_Tests";
 			productName = "Pods-TestPubicLibrary_Tests";
 			productReference = 436E504F8CD6725D06199EBCC36B3E33 /* Pods_TestPubicLibrary_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1A8DE835F89624C63A168646617C956D /* TestPubicLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9815C0FE840B8964AD8F77032BF72F28 /* Build configuration list for PBXNativeTarget "TestPubicLibrary" */;
-			buildPhases = (
-				C7972B519AC88EC2A489ACB3286B1DB5 /* Headers */,
-				034D20DBC576F7F0E432C3B4083E6E43 /* Sources */,
-				3F8F6B4DCEB9153E04BF29FEF853FA1A /* Frameworks */,
-				541FD859B061D214CD121630EA213DA8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TestPubicLibrary;
-			productName = TestPubicLibrary;
-			productReference = 3FCF7EC673BF43BD1C4AAA84B2BACF26 /* TestPubicLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
@@ -524,7 +1093,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E8E49F38481CFC71958CE0BB63CD8903 /* PBXTargetDependency */,
+				3167AA8D0358AA2CCE213E578F24C5E5 /* PBXTargetDependency */,
 			);
 			name = "Pods-TestPubicLibrary_Example";
 			productName = "Pods-TestPubicLibrary_Example";
@@ -549,7 +1118,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0C63D3EEBB414DE6F99548042D7FCC9A /* Products */;
+			productRefGroup = 0E3B3E712D8549FFAE37A81BBD8C7445 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -563,13 +1132,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		05169474C586EE44530C312F577B32D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		541FD859B061D214CD121630EA213DA8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -593,14 +1155,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		034D20DBC576F7F0E432C3B4083E6E43 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C93CB74B9CF651AC67C6CD60D0AC0937 /* TestPubicLibrary-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BDA952B6A60F12A8E408CFAD05C290C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -636,31 +1190,32 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3FDBA01D6AD77C2614815C915C385F4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = DFBAD21C345DA786DA2AE0ADA37EDF7C /* PBXContainerItemProxy */;
-		};
-		60A977116D3D4ECB2AC1ACE98EC961BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TestPubicLibrary_Example";
-			target = F31697CBFC4233996EFCABF2E5AD6D2A /* Pods-TestPubicLibrary_Example */;
-			targetProxy = 475020E141D3C85A2736AADF9CE3423B /* PBXContainerItemProxy */;
-		};
-		E8E49F38481CFC71958CE0BB63CD8903 /* PBXTargetDependency */ = {
+		3167AA8D0358AA2CCE213E578F24C5E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TestPubicLibrary;
 			target = 1A8DE835F89624C63A168646617C956D /* TestPubicLibrary */;
-			targetProxy = EB053F306F55D85BA797B93809B5E6D1 /* PBXContainerItemProxy */;
+			targetProxy = 49BEE7017A52E2FEAB8BA8F7065F87D9 /* PBXContainerItemProxy */;
+		};
+		77F7553A5B386043D1127654A6A27FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 4D13C6B2923E80E2F779480BE9C8A714 /* PBXContainerItemProxy */;
+		};
+		FCF44AE531781F49DC85D6A19DEB5B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestPubicLibrary_Example";
+			target = F31697CBFC4233996EFCABF2E5AD6D2A /* Pods-TestPubicLibrary_Example */;
+			targetProxy = E2829513034A2F33BA09281C0F9CD3C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1FC2573DC369BD5AE1636B80597450BB /* Release */ = {
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9285F3B0BD9F2B8F082C929D5A7113E8 /* TestPubicLibrary.release.xcconfig */;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -669,30 +1224,42 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestPubicLibrary/TestPubicLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TestPubicLibrary/TestPubicLibrary-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TestPubicLibrary/TestPubicLibrary.modulemap";
-				PRODUCT_MODULE_NAME = TestPubicLibrary;
-				PRODUCT_NAME = TestPubicLibrary;
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		4C0E8B14B35CA8F8873B9B43071D7AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B787D7CB686CF096B3567B82932C2968 /* TestPubicLibrary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
 			name = Release;
 		};
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -715,7 +1282,66 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -754,10 +1380,12 @@
 			};
 			name = Debug;
 		};
-		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+		A2AD34C9CFD23D12906520FF6C867493 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			baseConfigurationReference = CD69B9C4E99D611195C387BA28DEA84C /* Pods-TestPubicLibrary_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -766,29 +1394,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPubicLibrary_Example/Pods-TestPubicLibrary_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPubicLibrary_Example/Pods-TestPubicLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		3F3E69144AF42F1311FB559E76947AF7 /* Release */ = {
+		AE4475D6A8A596A43675988B70CFA54A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31FBAB9C06C40D9BE19B98048F07976B /* Pods-TestPubicLibrary_Example.release.xcconfig */;
+			baseConfigurationReference = 61C3CA666C24B7FAA127DB92576748FF /* Pods-TestPubicLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -817,137 +1447,11 @@
 			};
 			name = Release;
 		};
-		60A0A841DB1176898DC413EDC61E6143 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CC01176B40E9258BC27CB230D949BC6 /* Pods-TestPubicLibrary_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestPubicLibrary_Tests/Pods-TestPubicLibrary_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestPubicLibrary_Tests/Pods-TestPubicLibrary_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7CE58DEEA4E0741EFE0B97F5E1B14B0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B437BEC5213E813AA10C43FA73404B2 /* TestPubicLibrary.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestPubicLibrary/TestPubicLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TestPubicLibrary/TestPubicLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TestPubicLibrary/TestPubicLibrary.modulemap";
-				PRODUCT_MODULE_NAME = TestPubicLibrary;
-				PRODUCT_NAME = TestPubicLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		96E278526CE756E717389C39CFC5B5F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1366490274F30396BDE4883153873172 /* Pods-TestPubicLibrary_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestPubicLibrary_Example/Pods-TestPubicLibrary_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestPubicLibrary_Example/Pods-TestPubicLibrary_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9D400205D96C0E9911367B5BD5F94F90 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7969E02CDAF10AC72B2877BC85E841C /* Pods-TestPubicLibrary_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestPubicLibrary_Tests/Pods-TestPubicLibrary_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestPubicLibrary_Tests/Pods-TestPubicLibrary_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -975,64 +1479,83 @@
 			};
 			name = Release;
 		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+		BF3E8F0BFD118EACB73A32CF4D0F01A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25600D532542AE67BFFEE8CA94B9F1AB /* Pods-TestPubicLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPubicLibrary_Tests/Pods-TestPubicLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPubicLibrary_Tests/Pods-TestPubicLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7CCAEB8481E8D3BCB72ED30D98B43CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC771F6791F8BCBDBB1BC6E9F3F0304 /* TestPubicLibrary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE0B9151FB707C664B784F65EDA450C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848BB82320D4D5FB49DE8CB76AB6554B /* Pods-TestPubicLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPubicLibrary_Tests/Pods-TestPubicLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPubicLibrary_Tests/Pods-TestPubicLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1042,8 +1565,8 @@
 		17BABD3DE72D6BB8FA7DF9286E232F58 /* Build configuration list for PBXNativeTarget "Pods-TestPubicLibrary_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96E278526CE756E717389C39CFC5B5F6 /* Debug */,
-				3F3E69144AF42F1311FB559E76947AF7 /* Release */,
+				A2AD34C9CFD23D12906520FF6C867493 /* Debug */,
+				AE4475D6A8A596A43675988B70CFA54A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1051,17 +1574,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9815C0FE840B8964AD8F77032BF72F28 /* Build configuration list for PBXNativeTarget "TestPubicLibrary" */ = {
+		8803E1EBADD58A9DFA6A60CB47E791D9 /* Build configuration list for PBXAggregateTarget "TestPubicLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CE58DEEA4E0741EFE0B97F5E1B14B0E /* Debug */,
-				1FC2573DC369BD5AE1636B80597450BB /* Release */,
+				E7CCAEB8481E8D3BCB72ED30D98B43CA /* Debug */,
+				4C0E8B14B35CA8F8873B9B43071D7AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1069,8 +1592,8 @@
 		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
-				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1078,8 +1601,8 @@
 		DE65B9D9DDE286DE1514F272B20DDB8F /* Build configuration list for PBXNativeTarget "Pods-TestPubicLibrary_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D400205D96C0E9911367B5BD5F94F90 /* Debug */,
-				60A0A841DB1176898DC413EDC61E6143 /* Release */,
+				BF3E8F0BFD118EACB73A32CF4D0F01A3 /* Debug */,
+				EE0B9151FB707C664B784F65EDA450C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

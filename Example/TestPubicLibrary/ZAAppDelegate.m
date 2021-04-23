@@ -7,6 +7,7 @@
 //
 
 #import "ZAAppDelegate.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation ZAAppDelegate
 

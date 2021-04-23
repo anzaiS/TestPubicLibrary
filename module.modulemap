@@ -1,0 +1,6 @@
+framework module TestPubicLibrary {
+
+  header "GSPublicHeader.h"
+  export *
+
+}

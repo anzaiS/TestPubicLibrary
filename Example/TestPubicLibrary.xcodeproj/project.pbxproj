@@ -24,6 +24,22 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		914E960470E1B9CFF35DE868 /* Pods_TestPubicLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E5D42B78C805CCC4299982 /* Pods_TestPubicLibrary_Tests.framework */; };
 		CF181E133B2BB204F3D137AD /* Pods_TestPubicLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36CC73AE67B2D4B7D77ECB7 /* Pods_TestPubicLibrary_Example.framework */; };
+		F370B0E4262697D400C26BB6 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0E3262697D400C26BB6 /* GLKit.framework */; };
+		F370B0E6262697F200C26BB6 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0E5262697F200C26BB6 /* GPUImage.framework */; };
+		F370B0EA2626980100C26BB6 /* GSCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0E92626980100C26BB6 /* GSCommonKit.framework */; };
+		F370B0ED2626980D00C26BB6 /* GSDocKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0EC2626980D00C26BB6 /* GSDocKit.framework */; };
+		F370B0F02626981A00C26BB6 /* GSHeartbeatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0EF2626981A00C26BB6 /* GSHeartbeatKit.framework */; };
+		F370B0F32626982600C26BB6 /* RtSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0F22626982600C26BB6 /* RtSDK.framework */; };
+		F370B0FC2626985200C26BB6 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0F52626984200C26BB6 /* libavcodec.a */; };
+		F370B0FD2626985C00C26BB6 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0F72626984200C26BB6 /* libavformat.a */; };
+		F370B0FE2626986700C26BB6 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0FB2626984300C26BB6 /* libavutil.a */; };
+		F370B0FF2626987100C26BB6 /* liblibfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0F62626984200C26BB6 /* liblibfaad.a */; };
+		F370B1002626987C00C26BB6 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0FA2626984300C26BB6 /* libswresample.a */; };
+		F370B1012626988500C26BB6 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0F82626984300C26BB6 /* libswscale.a */; };
+		F370B1022626989000C26BB6 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B0F92626984300C26BB6 /* libx264.a */; };
+		F370B104262698BB00C26BB6 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B103262698AF00C26BB6 /* libiconv.tbd */; };
+		F370B108262698F400C26BB6 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B107262698EA00C26BB6 /* libicucore.tbd */; };
+		F370B10B2626990B00C26BB6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F370B10A2626990500C26BB6 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +83,23 @@
 		DDF9BBDD7C7E28F4B37F73F7 /* Pods-TestPubicLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPubicLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-TestPubicLibrary_Example/Pods-TestPubicLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1D98B4BE86D036B233354CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F36CC73AE67B2D4B7D77ECB7 /* Pods_TestPubicLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPubicLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F370B0E3262697D400C26BB6 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F370B0E5262697F200C26BB6 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = ../TestPubicLibrary/Classes/GPUImage.framework; sourceTree = "<group>"; };
+		F370B0E92626980100C26BB6 /* GSCommonKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSCommonKit.framework; path = ../TestPubicLibrary/Classes/GSCommonKit.framework; sourceTree = "<group>"; };
+		F370B0EC2626980D00C26BB6 /* GSDocKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSDocKit.framework; path = ../TestPubicLibrary/Classes/GSDocKit.framework; sourceTree = "<group>"; };
+		F370B0EF2626981A00C26BB6 /* GSHeartbeatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSHeartbeatKit.framework; path = ../TestPubicLibrary/Classes/GSHeartbeatKit.framework; sourceTree = "<group>"; };
+		F370B0F22626982600C26BB6 /* RtSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RtSDK.framework; path = ../TestPubicLibrary/Classes/RtSDK.framework; sourceTree = "<group>"; };
+		F370B0F52626984200C26BB6 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../TestPubicLibrary/Classes/libs/libavcodec.a; sourceTree = "<group>"; };
+		F370B0F62626984200C26BB6 /* liblibfaad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibfaad.a; path = ../TestPubicLibrary/Classes/libs/liblibfaad.a; sourceTree = "<group>"; };
+		F370B0F72626984200C26BB6 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../TestPubicLibrary/Classes/libs/libavformat.a; sourceTree = "<group>"; };
+		F370B0F82626984300C26BB6 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../TestPubicLibrary/Classes/libs/libswscale.a; sourceTree = "<group>"; };
+		F370B0F92626984300C26BB6 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = ../TestPubicLibrary/Classes/libs/libx264.a; sourceTree = "<group>"; };
+		F370B0FA2626984300C26BB6 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = ../TestPubicLibrary/Classes/libs/libswresample.a; sourceTree = "<group>"; };
+		F370B0FB2626984300C26BB6 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../TestPubicLibrary/Classes/libs/libavutil.a; sourceTree = "<group>"; };
+		F370B103262698AF00C26BB6 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		F370B106262698C600C26BB6 /* libRoseBooter.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libRoseBooter.tbd; path = usr/lib/libRoseBooter.tbd; sourceTree = SDKROOT; };
+		F370B107262698EA00C26BB6 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		F370B10A2626990500C26BB6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +108,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				F370B1002626987C00C26BB6 /* libswresample.a in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				F370B0EA2626980100C26BB6 /* GSCommonKit.framework in Frameworks */,
+				F370B1012626988500C26BB6 /* libswscale.a in Frameworks */,
+				F370B0FD2626985C00C26BB6 /* libavformat.a in Frameworks */,
+				F370B104262698BB00C26BB6 /* libiconv.tbd in Frameworks */,
+				F370B1022626989000C26BB6 /* libx264.a in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				F370B10B2626990B00C26BB6 /* libz.tbd in Frameworks */,
+				F370B0F02626981A00C26BB6 /* GSHeartbeatKit.framework in Frameworks */,
+				F370B0E4262697D400C26BB6 /* GLKit.framework in Frameworks */,
 				CF181E133B2BB204F3D137AD /* Pods_TestPubicLibrary_Example.framework in Frameworks */,
+				F370B0ED2626980D00C26BB6 /* GSDocKit.framework in Frameworks */,
+				F370B0FC2626985200C26BB6 /* libavcodec.a in Frameworks */,
+				F370B108262698F400C26BB6 /* libicucore.tbd in Frameworks */,
+				F370B0FE2626986700C26BB6 /* libavutil.a in Frameworks */,
+				F370B0FF2626987100C26BB6 /* liblibfaad.a in Frameworks */,
+				F370B0E6262697F200C26BB6 /* GPUImage.framework in Frameworks */,
+				F370B0F32626982600C26BB6 /* RtSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +179,23 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F370B10A2626990500C26BB6 /* libz.tbd */,
+				F370B107262698EA00C26BB6 /* libicucore.tbd */,
+				F370B106262698C600C26BB6 /* libRoseBooter.tbd */,
+				F370B103262698AF00C26BB6 /* libiconv.tbd */,
+				F370B0F52626984200C26BB6 /* libavcodec.a */,
+				F370B0F72626984200C26BB6 /* libavformat.a */,
+				F370B0FB2626984300C26BB6 /* libavutil.a */,
+				F370B0F62626984200C26BB6 /* liblibfaad.a */,
+				F370B0FA2626984300C26BB6 /* libswresample.a */,
+				F370B0F82626984300C26BB6 /* libswscale.a */,
+				F370B0F92626984300C26BB6 /* libx264.a */,
+				F370B0F22626982600C26BB6 /* RtSDK.framework */,
+				F370B0EF2626981A00C26BB6 /* GSHeartbeatKit.framework */,
+				F370B0EC2626980D00C26BB6 /* GSDocKit.framework */,
+				F370B0E92626980100C26BB6 /* GSCommonKit.framework */,
+				F370B0E5262697F200C26BB6 /* GPUImage.framework */,
+				F370B0E3262697D400C26BB6 /* GLKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -207,7 +273,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2DB6A70926019FEAC370B8EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +313,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "277715243@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6H63F9597K;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -296,24 +365,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DB6A70926019FEAC370B8EE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestPubicLibrary_Example/Pods-TestPubicLibrary_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TestPubicLibrary/TestPubicLibrary.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestPubicLibrary.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestPubicLibrary_Example/Pods-TestPubicLibrary_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7BBFFC0C3CAC7201CB095F29 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,12 +564,20 @@
 			baseConfigurationReference = 67BD655848866F13131D5936 /* Pods-TestPubicLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H63F9597K;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPubicLibrary/TestPubicLibrary-Prefix.pch";
 				INFOPLIST_FILE = "TestPubicLibrary/TestPubicLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.00002.demo.TestPubicLibrary-Example123";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -529,12 +588,20 @@
 			baseConfigurationReference = DDF9BBDD7C7E28F4B37F73F7 /* Pods-TestPubicLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H63F9597K;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPubicLibrary/TestPubicLibrary-Prefix.pch";
 				INFOPLIST_FILE = "TestPubicLibrary/TestPubicLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.00002.demo.TestPubicLibrary-Example123";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
